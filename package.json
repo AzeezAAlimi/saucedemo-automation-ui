@@ -1,0 +1,17 @@
+{
+  "name": "ubiquiti-inc",
+  "version": "1.0.0",
+  "description": "Automated Software",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "prettier": "^3.5.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.0"
+  }
+}
