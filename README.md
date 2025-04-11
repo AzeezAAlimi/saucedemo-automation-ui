@@ -61,7 +61,11 @@ src/
 - 🧪 **Smoke Tests**
   - Critical path verification in `tests/smoke/`
 
+<<<<<<< HEAD
 - 📸 **Visual Testing**
+=======
+- 📸 **Visual Testing** 
+>>>>>>> dcf1aa5674fd61f0878b06f1ace154e7799e0d6a
   - Setup for visual regression in `tests/visual/`
 
 ---
