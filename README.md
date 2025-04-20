@@ -47,21 +47,25 @@ src/
 ## ✅ Features
 
 - 🔐 **Login Flow**
+
   - `standard_user` can login
   - `locked_out_user` cannot login
 
 - 🛒 **Purchase Flow**
+
   - Sort by price & name
   - Add specific products to cart
   - Checkout with validation of cart contents
 
 - 🎯 **UI Validation**
+
   - Footer and Header checks (social links, menu, etc.)
 
 - 🧪 **Smoke Tests**
+
   - Critical path verification in `tests/smoke/`
 
-- 📸 **Visual Testing** *(optional)*
+- 📸 **Visual Testing** _(optional)_
   - Setup for visual regression in `tests/visual/`
 
 ---
@@ -88,20 +92,21 @@ npx playwright test      # Run all tests
 
 ## 👨‍💻 Example Command Usage
 
-| Task                     | Command                                  |
-|--------------------------|------------------------------------------|
-| Run All Tests            | `npx playwright test`                    |
-| Run E2E Only             | `npx playwright test tests/e2e/`         |
-| Run Smoke Only           | `npx playwright test tests/smoke/`       |
-| Run Visual Only          | `npx playwright test tests/visual/`      |
-| Headed Mode              | `npx playwright test --headed`           |
-| With Debugger            | `npx playwright test --debug`            |
+| Task            | Command                             |
+| --------------- | ----------------------------------- |
+| Run All Tests   | `npx playwright test`               |
+| Run E2E Only    | `npx playwright test tests/e2e/`    |
+| Run Smoke Only  | `npx playwright test tests/smoke/`  |
+| Run Visual Only | `npx playwright test tests/visual/` |
+| Headed Mode     | `npx playwright test --headed`      |
+| With Debugger   | `npx playwright test --debug`       |
 
 ---
 
 ## 📁 Environment Setup
 
 Edit or add new base URLs in `src/config/env.ts`:
+
 ```ts
 export const BASE_URL = 'https://www.saucedemo.com';
 ```
@@ -111,6 +116,7 @@ export const BASE_URL = 'https://www.saucedemo.com';
 ## 📋 How to Contribute
 
 Feel free to:
+
 - Add more test cases
 - Expand fixtures
 - Integrate CI (GitHub Actions, GitLab)
@@ -120,4 +126,4 @@ Feel free to:
 
 ## 🧠 Author
 
-Made by **Azeez Alimi**  
+Made by **Azeez Alimi**

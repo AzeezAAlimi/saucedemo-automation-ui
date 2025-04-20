@@ -1,8 +1,8 @@
 import { expect, type Locator, type Page } from '@playwright/test';
+import { error } from 'console';
 
-export class Products {
+export class availableProducts {
   private readonly page: Page;
-  private readonly products: Locator;
   private readonly productList: Locator;
   private readonly productTitle: Locator;
   private readonly productDescription: Locator;
@@ -11,7 +11,7 @@ export class Products {
 
   constructor(page: Page) {
     this.page = page;
-    this.products = page.locator('[class="inventory_item"]');
+    this.productList = page.locator('[class="inventory_item"]');
     this.productTitle = page.locator('[class="inventory_item_name "]');
     this.productDescription = page.locator('[class="inventory_item_desc"]');
     this.productPrice = page.locator('[class="inventory_item_price"]');
@@ -19,10 +19,10 @@ export class Products {
   }
 
   async validateProductDetails() {
-    const product = await this.products.count();
+    const product = await this.productList.count();
     console.log(`Total products found : ${product}`);
     for (let i = 0; i < product; i++) {
-      const title = await this.products
+      const title = await this.productList
         .nth(i)
         .locator(this.productTitle)
         .innerText();
@@ -31,7 +31,7 @@ export class Products {
         throw new Error(`Product ${i + 1} is missing a title`);
       }
 
-      const description = await this.products
+      const description = await this.productList
         .nth(i)
         .locator(this.productDescription)
         .innerText();
@@ -40,7 +40,7 @@ export class Products {
         throw new Error(`Product ${i + 1} is missing a description`);
       }
 
-      const price = await this.products
+      const price = await this.productList
         .nth(i)
         .locator(this.productPrice)
         .innerText();
@@ -49,7 +49,7 @@ export class Products {
         throw new Error(`Product ${i + 1} is missing a price`);
       }
 
-      const addToCart = await this.products
+      const addToCart = await this.productList
         .nth(i)
         .locator(this.addToCartBtn)
         .innerText();
@@ -60,18 +60,11 @@ export class Products {
     }
   }
 
-  async addProductToCartByIndex(index: number) {
-    await this.products
-      .nth(index)
-      .getByRole('button', { name: 'Add to cart' })
-      .click();
-  }
-
   async addToCartByName(addByProductName: string) {
-    const productNameCount = await this.products.count();
+    const productNameCount = await this.productList.count();
     console.log(productNameCount);
     for (let i = 0; i < productNameCount; i++) {
-      const product = this.products.nth(i);
+      const product = this.productList.nth(i);
       const name = await product.locator(this.productTitle).textContent();
       console.log(name);
       if (name?.trim() === addByProductName) {
@@ -80,6 +73,6 @@ export class Products {
         return;
       }
     }
-    throw new Error(`Product ${addByProductName} is not found on the page`);
+    throw new Error(`Producrt ${addByProductName} is not found on the page`);
   }
 }

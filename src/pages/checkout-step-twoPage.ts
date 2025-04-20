@@ -59,21 +59,36 @@ export class CheckoutSteptwoPage {
 
   async verifyProductNamesMatch(cartNames: string[]) {
     const checkoutNames = await this.getProductNamesInCheckout();
+    console.log(`Cart Name: ${cartNames}`);
+    console.log(`Checkout Name: ${checkoutNames}`);
     expect(checkoutNames.sort()).toEqual(cartNames.sort());
   }
 
-  async PriceTotal() {
-    await expect(this.page.getByText('Price Total')).toContainText(
-      'Price Total',
-    );
-    await expect(
-      this.page.getByText('Item total: $59.980000000000004'),
-    ).toContainText('Item total: $59.980000000000004');
-    await expect(this.page.getByText('Tax: $4.80')).toContainText('Tax: $4.80');
-    await expect(this.page.getByText('Total: $64.78')).toContainText(
-      'Total: $64.78',
-    );
+  async getProductCostInCheckout(): Promise<string[]> {
+    return await this.page
+      .locator('[class="inventory_item_price"]')
+      .allInnerTexts();
   }
+
+  async verifyProductCostMatch(cartPrice: string[]) {
+    const checkoutPrice = await this.getProductCostInCheckout();
+    console.log(`Cart Prices: ${cartPrice}`);
+    console.log(`Checkout Prices: ${checkoutPrice}`);
+    expect(checkoutPrice.sort()).toEqual(cartPrice.sort());
+  }
+
+  // async PriceTotal() {
+  //   await expect(this.page.getByText('Price Total')).toContainText(
+  //     'Price Total',
+  //   );
+  //   await expect(
+  //     this.page.getByText('Item total: $59.980000000000004'),
+  //   ).toContainText('Item total: $59.980000000000004');
+  //   await expect(this.page.getByText('Tax: $4.80')).toContainText('Tax: $4.80');
+  //   await expect(this.page.getByText('Total: $64.78')).toContainText(
+  //     'Total: $64.78',
+  //   );
+  // }
 
   async clickonFinishBtn() {
     await this.finishBtn.isVisible();

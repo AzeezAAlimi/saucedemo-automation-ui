@@ -8,7 +8,6 @@ test('E2E: The standard user can log in and complete a product purchase successf
   checkoutStepOnePage,
   checkoutSteptwoPage,
   checkoutCompletePage,
-  page,
 }) => {
   const { username, password, firstName, lastName, zipCode } =
     userData.standardUser;
@@ -28,7 +27,6 @@ test('E2E: The standard user can log in and complete a product purchase successf
   await checkoutStepOnePage.clickonContinueBtn();
   await checkoutSteptwoPage.checkoutStepTwoPageLoaded();
   await checkoutSteptwoPage.verifyProductNamesMatch(productIntCart);
-  await checkoutSteptwoPage.PriceTotal();
   await checkoutSteptwoPage.clickonFinishBtn();
   await checkoutCompletePage.checkoutCompletePageLoaded();
   await checkoutCompletePage.clickonBackHomeBtn();

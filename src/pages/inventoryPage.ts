@@ -1,8 +1,9 @@
-import { expect, Locator, type Page } from '@playwright/test';
+import { expect, type Page } from '@playwright/test';
 import { Header } from './components/header/headerSection';
 import { Footer } from './components/footer/footerSection';
 import { ProductSorting } from './components/productSorting';
 import { Products } from './components/products';
+import { availableProducts } from './components/availableProduct';
 
 export class InventoryPage {
   private readonly page: Page;
@@ -10,6 +11,7 @@ export class InventoryPage {
   public readonly footer: Footer;
   public readonly productSorting: ProductSorting;
   public readonly products: Products;
+  public readonly available: availableProducts;
 
   constructor(page: Page) {
     this.page = page;
@@ -17,6 +19,7 @@ export class InventoryPage {
     this.footer = new Footer(page);
     this.productSorting = new ProductSorting(page);
     this.products = new Products(page);
+    this.available = new availableProducts(page);
   }
 
   async inventoryPageLoaded() {
