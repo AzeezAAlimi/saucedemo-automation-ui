@@ -49,11 +49,15 @@ test.describe('Accessibility', () => {
   test('Axe - Analysis and reporting without tags', async ({ page }) => {
     const report = await new AxeBuilder({ page }).analyze();
     expect(report.violations).toHaveLength(0);
-    expect(report.violations).toEqual([])
+    expect(report.violations).toEqual([]);
   });
 
   test('Accessibility assertions - a11y matches', async ({ page }) => {
-    await expect(page.locator('[class="submit-button btn_action"]')).toHaveRole('button')
-    await expect(page.locator('[class="submit-button btn_action"]')).toHaveAccessibleName('Login')
+    await expect(page.locator('[class="submit-button btn_action"]')).toHaveRole(
+      'button',
+    );
+    await expect(
+      page.locator('[class="submit-button btn_action"]'),
+    ).toHaveAccessibleName('Login');
   });
 });
