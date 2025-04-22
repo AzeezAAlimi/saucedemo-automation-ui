@@ -1,5 +1,5 @@
 import { test } from '../../fixtures/fixtures';
-import { userData } from '../../config/testData';
+import { userData, productsData } from '../../config/testData';
 import { expect } from '@playwright/test';
 
 test('Smoke: Standard user login and verifies inventory page & the products visibility', async ({
@@ -7,15 +7,16 @@ test('Smoke: Standard user login and verifies inventory page & the products visi
   inventoryPage,
   cartPage,
 }) => {
-  const { username, password } = userData.standardUser;
+  const { userName, password } = userData.standardUser;
+  const { backPack, bikeLight } = productsData;
   await homePage.goTo();
-  await homePage.standardlogin(username, password);
+  await homePage.standardlogin(userName, password);
   await inventoryPage.inventoryPageLoaded();
-  await inventoryPage.available.validateProductDetails();
-  await inventoryPage.available.addToCartByName('Sauce Labs Backpack');
-  await inventoryPage.available.addToCartByName('Sauce Labs Bike Light');
+  await inventoryPage.products.validateProductDetails();
+  await inventoryPage.products.addToCartByName(backPack);
+  await inventoryPage.products.addToCartByName(bikeLight);
   await inventoryPage.header.cart.clickOnCart();
-  const product = await cartPage.productInCart();
-  expect(product).toContain('Sauce Labs Backpack');
-  expect(product).toContain('Sauce Labs Bike Light');
+  const [names] = await cartPage.productInCart();
+  expect(names).toContain(backPack);
+  expect(names).toContain(bikeLight);
 });

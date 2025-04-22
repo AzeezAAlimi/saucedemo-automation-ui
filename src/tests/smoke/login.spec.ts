@@ -7,14 +7,14 @@ test.describe('Smoke: Login flow', () => {
   });
 
   test('The standard_user should be able to log in', async ({ homePage }) => {
-    const { username, password } = userData.standardUser;
-    await homePage.standardlogin(username, password);
+    const { userName, password } = userData.standardUser;
+    await homePage.standardlogin(userName, password);
   });
 
   test('The locked_out_user should not be able to log in', async ({
     homePage,
   }) => {
-    const { username, password } = userData.lockedUser;
-    await homePage.lockedOutUserlogin(username, password);
+    const { userName, password } = userData.lockedUser;
+    await homePage.lockedOutUserlogin(userName, password);
   });
 });

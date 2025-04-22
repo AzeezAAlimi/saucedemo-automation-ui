@@ -6,9 +6,9 @@ export class CartPage {
   private readonly page: Page;
   public readonly header: Header;
   public readonly footer: Footer;
+  private readonly itemInCart: Locator;
   private readonly itemName: Locator;
-  private readonly productName: Locator; //
-  private readonly productPrice: Locator; //
+  private readonly itemPrice: Locator;
   private readonly continueShoppingBtn: Locator;
   private readonly checkoutBtn: Locator;
 
@@ -16,9 +16,9 @@ export class CartPage {
     this.page = page;
     this.header = new Header(page);
     this.footer = new Footer(page);
+    this.itemInCart = page.locator('[class="cart_item"]'); //
     this.itemName = page.locator('[class="inventory_item_name"]');
-    this.productName = page.locator('[class="cart_item"]'); //
-    this.productPrice = page.locator('[class="inventory_item_price"]'); //
+    this.itemPrice = page.locator('[class="inventory_item_price"]'); //
     this.continueShoppingBtn = page.getByRole('button', {
       name: 'Go back Continue Shopping',
     });
@@ -46,21 +46,19 @@ export class CartPage {
   // }
 
   async productInCart(): Promise<[string[], string[]]> {
-    const items = this.productName;
+    const items = this.itemInCart;
     const count = await items.count();
 
     if (count === 0) {
       return [[], []];
     }
 
-    const productNames = await items.locator(this.itemName).allInnerTexts();
-    const productPrices = await items
-      .locator(this.productPrice)
-      .allInnerTexts();
+    const itemNames = await items.locator(this.itemName).allInnerTexts();
+    const ItemPrices = await items.locator(this.itemPrice).allInnerTexts();
 
-    console.log(productNames);
-    console.log(productPrices);
-    return [productNames, productPrices];
+    console.log(itemNames);
+    console.log(ItemPrices);
+    return [itemNames, ItemPrices];
   }
 
   async clickonContinueShoppingBtn() {

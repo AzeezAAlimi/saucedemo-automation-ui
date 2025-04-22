@@ -3,10 +3,9 @@ import { userData } from '../../config/testData';
 
 test.describe('Smoke: Menu item tests', () => {
   test.beforeEach(async ({ homePage, inventoryPage }) => {
-    const { username, password } = userData.standardUser;
+    const { userName, password } = userData.standardUser;
     await homePage.goTo();
-    await homePage.standardlogin(username, password);
-    await inventoryPage.inventoryPageLoaded();
+    await homePage.standardlogin(userName, password);
     await inventoryPage.header.menu.clickOnMenuBtn();
   });
 

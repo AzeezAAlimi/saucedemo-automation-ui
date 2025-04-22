@@ -9,10 +9,10 @@ test('E2E: The standard user can log in and complete a product purchase successf
   checkoutSteptwoPage,
   checkoutCompletePage,
 }) => {
-  const { username, password, firstName, lastName, zipCode } =
+  const { userName, password, firstName, lastName, zipCode } =
     userData.standardUser;
   await homePage.goTo();
-  await homePage.standardlogin(username, password);
+  await homePage.standardlogin(userName, password);
   await inventoryPage.inventoryPageLoaded();
   await inventoryPage.productSorting.sortBy('lohi');
   await inventoryPage.products.addProductToCartByIndex(5);
@@ -20,13 +20,14 @@ test('E2E: The standard user can log in and complete a product purchase successf
   await inventoryPage.products.addProductToCartByIndex(1);
   await inventoryPage.header.cart.clickOnCart();
   await cartPage.cartPageLoaded();
-  const productIntCart = await cartPage.productInCart();
+  const [names, prices] = await cartPage.productInCart();
   await cartPage.clickonCheckoutBtn();
   await checkoutStepOnePage.checkoutStepOnePageLoaded();
   await checkoutStepOnePage.fillYourInfo(firstName, lastName, zipCode);
   await checkoutStepOnePage.clickonContinueBtn();
   await checkoutSteptwoPage.checkoutStepTwoPageLoaded();
-  await checkoutSteptwoPage.verifyProductNamesMatch(productIntCart);
+  await checkoutSteptwoPage.verifyProductNamesMatch(names);
+  await checkoutSteptwoPage.verifyProductCostMatch(prices);
   await checkoutSteptwoPage.clickonFinishBtn();
   await checkoutCompletePage.checkoutCompletePageLoaded();
   await checkoutCompletePage.clickonBackHomeBtn();

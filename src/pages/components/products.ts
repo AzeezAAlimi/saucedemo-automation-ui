@@ -69,11 +69,11 @@ export class Products {
 
   async addToCartByName(addByProductName: string) {
     const productNameCount = await this.products.count();
-    console.log(productNameCount);
+    //console.log(productNameCount);
     for (let i = 0; i < productNameCount; i++) {
       const product = this.products.nth(i);
       const name = await product.locator(this.productTitle).textContent();
-      console.log(name);
+      //console.log(name);
       if (name?.trim() === addByProductName) {
         await product.locator(this.addToCartBtn).click();
         console.log(`Product ${addByProductName} is added to the cart`);
