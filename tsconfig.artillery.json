@@ -2,12 +2,13 @@
     "compilerOptions": {
       "target": "ES6",
       "module": "CommonJS",
-      "outDir": "./js-tests/artillery",
-      "rootDir": "./src/tests/performance-load/Artillery",
+      "rootDir": "./src/tests/performance-load/artillery",
+      "outDir": "./src/tests/performance-load/artillery", 
       "resolveJsonModule": true,
       "esModuleInterop": true,
       "strict": true
     },
-    "include": ["src/tests/performance-load/Artillery/**/*.ts"]
+    "include": ["src/tests/performance-load/artillery/**/*.ts"],
+    "exclude": ["node_modules"]
   }
   
