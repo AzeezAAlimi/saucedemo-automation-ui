@@ -9,7 +9,10 @@ test.use({ ...iphone15ProMax });
 test.describe('Smoke: Login flow', () => {
   test.beforeEach(async ({ homePage, page }) => {
     await homePage.goTo();
-    await page.screenshot({ path: 'src/tests/mobile/screenshot/iphone15ProMax.png', fullPage: true})
+    await page.screenshot({
+      path: 'src/tests/mobile/screenshot/iphone15ProMax.png',
+      fullPage: true,
+    });
   });
 
   test('The standard_user should be able to log in', async ({ homePage }) => {
