@@ -1,0 +1,10 @@
+config:
+  target: "https://www.saucedemo.com"
+  phases:
+    - duration: 10
+      arrivalRate: 1
+  processor: "./homepage-load.spec.ts"
+
+scenarios:
+  - flow:
+      - function: "loadHomePage"

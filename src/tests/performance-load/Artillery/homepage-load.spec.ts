@@ -1,13 +1,12 @@
-import { expect } from '@playwright/test';
-import { test } from '../../../fixtures/fixtures';
+import { chromium } from 'playwright';
 
-test.describe('Load Testing', () => {
-  test.beforeEach(async ({ homePage }) => {
-    await homePage.goTo();
-  });
-  test('Accessibility keyboard navigation', async ({ page }) => {
-    await page.getByRole('textbox', { name: 'username' }).click();
-    await page.getByRole('textbox', { name: 'password' }).click();
-    await page.pause();
-  });
-});
+module.exports = {
+  loadHomePage: async function () {
+    const browser = await chromium.launch()
+    const context = await browser.newContext()
+    const page = await context.newPage()
+
+    await page.goto('https://www.saucedemo.com');
+    await browser.close()
+  }
+}
