@@ -1,0 +1,32 @@
+[
+  {
+    "firstName": "Jurrien",
+    "lastName": "Timber",
+    "zipPostalCode": "55555"
+  },
+  {
+    "firstName": "William",
+    "lastName": "Saliba",
+    "zipPostalCode": "11111"
+  },
+  {
+    "firstName": "Myles",
+    "lastName": "Lewis-Skelly",
+    "zipPostalCode": "44444"
+  },
+  {
+    "firstName": "Thomas",
+    "lastName": "Partey",
+    "zipPostalCode": "77777"
+  },
+  {
+    "firstName": "Gabriel",
+    "lastName": "Martinelli",
+    "zipPostalCode": "44444"
+  },
+  {
+    "firstName": "Bukayo",
+    "lastName": "Saka",
+    "zipPostalCode": "66666"
+  }
+]
