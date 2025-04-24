@@ -7,9 +7,9 @@ test('Visual: Inventory page renders correctly after login and product sort', as
   inventoryPage,
   page,
 }) => {
-  const { username, password } = userData.standardUser;
+  const { userName, password } = userData.standardUser;
   await homePage.goTo();
-  await homePage.standardlogin(username, password);
+  await homePage.standardlogin(userName, password);
   await inventoryPage.productSorting.sortBy('az');
   await inventoryPage.products.addProductToCartByIndex(1);
   await expect(page).toHaveScreenshot('inventoryPage.png', { fullPage: true });

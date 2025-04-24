@@ -1,10 +1,11 @@
 config:
-  target: "https://www.saucedemo.com"
+  target: 'https://www.saucedemo.com'
   phases:
-    - duration: 10
+    - duration: 20
       arrivalRate: 1
-  processor: "./homepage-load.spec.ts"
+  processor: './dist/tests/performance-load/artillery/homepage-load.spec.js'
 
 scenarios:
-  - flow:
-      - function: "loadHomePage"
+  - name: 'User Journey'
+    flow:
+      - function: 'fullUserJourney'
