@@ -1,1 +1,791 @@
-{"uid":"98d3104e051c652961429bf95fa0b5d6","name":"suites","children":[{"name":"src/tests/data-driven-test/checkoutInfo.spec.ts","children":[{"name":"Add-to-Cart and Checkout Step One setup using product data","children":[{"name":"Should fill checkout info for \"Jurrien Timber 55555\" successfully","uid":"f3a9d4387e187351","parentUid":"b07e3b802ae1662583b8cfacf1762011","status":"passed","time":{"start":1745525381892,"stop":1745525385011,"duration":3119},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should fill checkout info for \"William Saliba 11111\" successfully","uid":"54aa5bc217417500","parentUid":"b07e3b802ae1662583b8cfacf1762011","status":"passed","time":{"start":1745525387261,"stop":1745525388463,"duration":1202},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should fill checkout info for \"Myles Lewis-Skelly 44444\" successfully","uid":"4694e7886dfad60c","parentUid":"b07e3b802ae1662583b8cfacf1762011","status":"passed","time":{"start":1745525388472,"stop":1745525389577,"duration":1105},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should fill checkout info for \"Thomas Partey 77777\" successfully","uid":"dd571bd151a93f1e","parentUid":"b07e3b802ae1662583b8cfacf1762011","status":"passed","time":{"start":1745525389590,"stop":1745525390459,"duration":869},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should fill checkout info for \"Gabriel Martinelli 44444\" successfully","uid":"40ccbb519b3657ee","parentUid":"b07e3b802ae1662583b8cfacf1762011","status":"passed","time":{"start":1745525390474,"stop":1745525391274,"duration":800},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should fill checkout info for \"Bukayo Saka 66666\" successfully","uid":"bce6ea5e708ce456","parentUid":"b07e3b802ae1662583b8cfacf1762011","status":"passed","time":{"start":1745525391287,"stop":1745525392114,"duration":827},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"b07e3b802ae1662583b8cfacf1762011"}],"uid":"eb0ba76c9bed7a3a6285412bd40faf6e"},{"name":"src/tests/data-driven-test/addToCart.spec.ts","children":[{"name":"Add-to-Cart tests using product data","children":[{"name":"Should add \"Sauce Labs Backpack\" to cart successfully","uid":"81145009078d1e5e","parentUid":"645319361c62274388e2e715cafd58f2","status":"passed","time":{"start":1745525381904,"stop":1745525384983,"duration":3079},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should add \"Sauce Labs Fleece Jacket\" to cart successfully","uid":"f194556e2b19e8e9","parentUid":"645319361c62274388e2e715cafd58f2","status":"passed","time":{"start":1745525387240,"stop":1745525388349,"duration":1109},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should add \"Sauce Labs Bolt T-Shirt\" to cart successfully","uid":"b705d250b5cd8cf8","parentUid":"645319361c62274388e2e715cafd58f2","status":"passed","time":{"start":1745525388344,"stop":1745525389458,"duration":1114},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should add \"Test.allTheThings() T-Shirt (Red)\" to cart successfully","uid":"b8d906719e577f39","parentUid":"645319361c62274388e2e715cafd58f2","status":"passed","time":{"start":1745525389463,"stop":1745525390275,"duration":812},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should add \"Sauce Labs Onesie\" to cart successfully","uid":"e5af71d6006d38fc","parentUid":"645319361c62274388e2e715cafd58f2","status":"passed","time":{"start":1745525390291,"stop":1745525391162,"duration":871},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should add \"Sauce Labs Bike Light\" to cart successfully","uid":"9790739bae325ac7","parentUid":"645319361c62274388e2e715cafd58f2","status":"passed","time":{"start":1745525391171,"stop":1745525391933,"duration":762},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"645319361c62274388e2e715cafd58f2"}],"uid":"e7d37760921cc7149230f7e8d610c41d"},{"name":"src/tests/data-driven-test/login.spec.ts","children":[{"name":"Should login successfully with username: \"standard_user\"","uid":"d14342332bbe7070","parentUid":"0b840cb0017a9e2ced85b10ab858a434","status":"passed","time":{"start":1745525381906,"stop":1745525384654,"duration":2748},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should login successfully with username: \"locked_out_user\"","uid":"42bad52eb7d5c1db","parentUid":"0b840cb0017a9e2ced85b10ab858a434","status":"passed","time":{"start":1745525386871,"stop":1745525387670,"duration":799},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should login successfully with username: \"problem_user\"","uid":"b94654af3b36c9b2","parentUid":"0b840cb0017a9e2ced85b10ab858a434","status":"passed","time":{"start":1745525387673,"stop":1745525388583,"duration":910},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should login successfully with username: \"performance_glitch_user\"","uid":"3ea3fcc2b575661f","parentUid":"0b840cb0017a9e2ced85b10ab858a434","status":"passed","time":{"start":1745525388596,"stop":1745525394551,"duration":5955},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should login successfully with username: \"error_user\"","uid":"8f23393b57ab9b09","parentUid":"0b840cb0017a9e2ced85b10ab858a434","status":"passed","time":{"start":1745525394570,"stop":1745525395375,"duration":805},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Should login successfully with username: \"visual_user\"","uid":"d6dfb1165e7da3c3","parentUid":"0b840cb0017a9e2ced85b10ab858a434","status":"passed","time":{"start":1745525395388,"stop":1745525396201,"duration":813},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"0b840cb0017a9e2ced85b10ab858a434"},{"name":"src/tests/accessibility/axe/homepage-accessibility.spec.ts","children":[{"name":"Accessibility","children":[{"name":"Accessibility keyboard navigation","uid":"9faa16fdc1b8ff7c","parentUid":"b327ef9ed69c7167f23ee74ad99275d0","status":"passed","time":{"start":1745525381963,"stop":1745525384825,"duration":2862},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Axe - Analysis and reporting with tags","uid":"493d50779b36a174","parentUid":"b327ef9ed69c7167f23ee74ad99275d0","status":"passed","time":{"start":1745525386996,"stop":1745525389138,"duration":2142},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Axe - Analysis and reporting without tags","uid":"a2a1af320559b174","parentUid":"b327ef9ed69c7167f23ee74ad99275d0","status":"failed","time":{"start":1745525389149,"stop":1745525390922,"duration":1773},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":false,"parameters":[],"tags":[]},{"name":"Accessibility assertions - a11y matches","uid":"79bca2678adbd519","parentUid":"b327ef9ed69c7167f23ee74ad99275d0","status":"passed","time":{"start":1745525393204,"stop":1745525394036,"duration":832},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"b327ef9ed69c7167f23ee74ad99275d0"}],"uid":"d9e722abf7500eecddbc462fcb6735a8"},{"name":"src/tests/e2e/e2e.spec.ts","children":[{"name":"E2E: The standard user can log in and complete a product purchase successfully","uid":"91a429f85eeb67b3","parentUid":"6c192d5577f3720d341a6db136491cbf","status":"passed","time":{"start":1745525391948,"stop":1745525393193,"duration":1245},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"6c192d5577f3720d341a6db136491cbf"},{"name":"src/tests/smoke/cart.spec.ts","children":[{"name":"Smoke: Standard user login and basic cart functionality","uid":"158deb01d3c9b907","parentUid":"e1d7c525d6ee9895f9e5388f5eb67f40","status":"passed","time":{"start":1745525392122,"stop":1745525392939,"duration":817},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"e1d7c525d6ee9895f9e5388f5eb67f40"},{"name":"src/tests/smoke/footer.spec.ts","children":[{"name":"Smoke: Standard user can log in and verify footer UI elements","uid":"7ba8c42c2f386851","parentUid":"d3109dcd701d97bb88159ee2ec8aa6eb","status":"passed","time":{"start":1745525392953,"stop":1745525398142,"duration":5189},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"d3109dcd701d97bb88159ee2ec8aa6eb"},{"name":"src/tests/smoke/inventory.spec.ts","children":[{"name":"Smoke: Standard user login and verifies inventory page & the products visibility","uid":"6028e6a22b3dfe14","parentUid":"a6a16b2d7c6970c8ccdb61fecdbdf0d9","status":"passed","time":{"start":1745525393220,"stop":1745525394231,"duration":1011},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"a6a16b2d7c6970c8ccdb61fecdbdf0d9"},{"name":"src/tests/smoke/login.spec.ts","children":[{"name":"Smoke: Login flow","children":[{"name":"The standard_user should be able to log in","uid":"5ba8f32712a66826","parentUid":"2852f37a55f7963c6309d5af9ae4fb51","status":"passed","time":{"start":1745525394237,"stop":1745525395023,"duration":786},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"The locked_out_user should not be able to log in","uid":"66d4bf72c30083f4","parentUid":"2852f37a55f7963c6309d5af9ae4fb51","status":"passed","time":{"start":1745525395032,"stop":1745525395733,"duration":701},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"2852f37a55f7963c6309d5af9ae4fb51"}],"uid":"0372e61f5dc3534f03a996e08564790b"},{"name":"src/tests/smoke/menu.spec.ts","children":[{"name":"Smoke: Menu item tests","children":[{"name":"Smoke: Verifies that the \"All items\" option in the menu is functional","uid":"5c1d4016e1c88bf7","parentUid":"89eb9ccfa28576b081b24324cd853bcf","status":"passed","time":{"start":1745525394435,"stop":1745525396286,"duration":1851},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"Smoke: Verifies that the \"Logout\" option in the menu is functional","uid":"7b03fe394ef7a687","parentUid":"89eb9ccfa28576b081b24324cd853bcf","status":"passed","time":{"start":1745525396292,"stop":1745525398062,"duration":1770},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"89eb9ccfa28576b081b24324cd853bcf"}],"uid":"7b29bee35c1b858c858dbd8d34e7b528"},{"name":"src/tests/visual/checkoutCompletePage-visual.spec.ts","children":[{"name":"Visual: Checkout completion screen renders correctly","uid":"7a4d977df8116917","parentUid":"1cb7d0ec91b6002db3c8b9ef56da90c4","status":"passed","time":{"start":1745525395745,"stop":1745525397270,"duration":1525},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"1cb7d0ec91b6002db3c8b9ef56da90c4"},{"name":"src/tests/visual/homepage-visual.spec.ts","children":[{"name":"Visual: Homepage should match design snapshot","uid":"7f2eace90d904661","parentUid":"2875cccc3fe111ff4e17fd5f679ef10d","status":"passed","time":{"start":1745525396214,"stop":1745525397056,"duration":842},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"2875cccc3fe111ff4e17fd5f679ef10d"},{"name":"src/tests/visual/inventorypage-visual.spec.ts","children":[{"name":"Visual: Inventory page renders correctly after login and product sort","uid":"715eafdf71e60ec4","parentUid":"1526980cd047805cc662bf4a0f5f2f59","status":"passed","time":{"start":1745525397079,"stop":1745525398102,"duration":1023},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"1526980cd047805cc662bf4a0f5f2f59"},{"name":"src/tests/mobile/mobile.spec.ts","children":[{"name":"Smoke: Login flow","children":[{"name":"The standard_user should be able to log in","uid":"1f270c935141c53a","parentUid":"62f8c275eeb218279cd27594154f275f","status":"passed","time":{"start":1745525398723,"stop":1745525401121,"duration":2398},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]},{"name":"The locked_out_user should not be able to log in","uid":"769211adcf02db3d","parentUid":"62f8c275eeb218279cd27594154f275f","status":"passed","time":{"start":1745525408894,"stop":1745525409603,"duration":709},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":[],"tags":[]}],"uid":"62f8c275eeb218279cd27594154f275f"}],"uid":"bf0bd1e3dc491e5b525189bac0e1e492"}]}
+{
+  "uid": "98d3104e051c652961429bf95fa0b5d6",
+  "name": "suites",
+  "children": [
+    {
+      "name": "src/tests/data-driven-test/checkoutInfo.spec.ts",
+      "children": [
+        {
+          "name": "Add-to-Cart and Checkout Step One setup using product data",
+          "children": [
+            {
+              "name": "Should fill checkout info for \"Jurrien Timber 55555\" successfully",
+              "uid": "f3a9d4387e187351",
+              "parentUid": "b07e3b802ae1662583b8cfacf1762011",
+              "status": "passed",
+              "time": {
+                "start": 1745525381892,
+                "stop": 1745525385011,
+                "duration": 3119
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should fill checkout info for \"William Saliba 11111\" successfully",
+              "uid": "54aa5bc217417500",
+              "parentUid": "b07e3b802ae1662583b8cfacf1762011",
+              "status": "passed",
+              "time": {
+                "start": 1745525387261,
+                "stop": 1745525388463,
+                "duration": 1202
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should fill checkout info for \"Myles Lewis-Skelly 44444\" successfully",
+              "uid": "4694e7886dfad60c",
+              "parentUid": "b07e3b802ae1662583b8cfacf1762011",
+              "status": "passed",
+              "time": {
+                "start": 1745525388472,
+                "stop": 1745525389577,
+                "duration": 1105
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should fill checkout info for \"Thomas Partey 77777\" successfully",
+              "uid": "dd571bd151a93f1e",
+              "parentUid": "b07e3b802ae1662583b8cfacf1762011",
+              "status": "passed",
+              "time": {
+                "start": 1745525389590,
+                "stop": 1745525390459,
+                "duration": 869
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should fill checkout info for \"Gabriel Martinelli 44444\" successfully",
+              "uid": "40ccbb519b3657ee",
+              "parentUid": "b07e3b802ae1662583b8cfacf1762011",
+              "status": "passed",
+              "time": {
+                "start": 1745525390474,
+                "stop": 1745525391274,
+                "duration": 800
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should fill checkout info for \"Bukayo Saka 66666\" successfully",
+              "uid": "bce6ea5e708ce456",
+              "parentUid": "b07e3b802ae1662583b8cfacf1762011",
+              "status": "passed",
+              "time": {
+                "start": 1745525391287,
+                "stop": 1745525392114,
+                "duration": 827
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            }
+          ],
+          "uid": "b07e3b802ae1662583b8cfacf1762011"
+        }
+      ],
+      "uid": "eb0ba76c9bed7a3a6285412bd40faf6e"
+    },
+    {
+      "name": "src/tests/data-driven-test/addToCart.spec.ts",
+      "children": [
+        {
+          "name": "Add-to-Cart tests using product data",
+          "children": [
+            {
+              "name": "Should add \"Sauce Labs Backpack\" to cart successfully",
+              "uid": "81145009078d1e5e",
+              "parentUid": "645319361c62274388e2e715cafd58f2",
+              "status": "passed",
+              "time": {
+                "start": 1745525381904,
+                "stop": 1745525384983,
+                "duration": 3079
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should add \"Sauce Labs Fleece Jacket\" to cart successfully",
+              "uid": "f194556e2b19e8e9",
+              "parentUid": "645319361c62274388e2e715cafd58f2",
+              "status": "passed",
+              "time": {
+                "start": 1745525387240,
+                "stop": 1745525388349,
+                "duration": 1109
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should add \"Sauce Labs Bolt T-Shirt\" to cart successfully",
+              "uid": "b705d250b5cd8cf8",
+              "parentUid": "645319361c62274388e2e715cafd58f2",
+              "status": "passed",
+              "time": {
+                "start": 1745525388344,
+                "stop": 1745525389458,
+                "duration": 1114
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should add \"Test.allTheThings() T-Shirt (Red)\" to cart successfully",
+              "uid": "b8d906719e577f39",
+              "parentUid": "645319361c62274388e2e715cafd58f2",
+              "status": "passed",
+              "time": {
+                "start": 1745525389463,
+                "stop": 1745525390275,
+                "duration": 812
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should add \"Sauce Labs Onesie\" to cart successfully",
+              "uid": "e5af71d6006d38fc",
+              "parentUid": "645319361c62274388e2e715cafd58f2",
+              "status": "passed",
+              "time": {
+                "start": 1745525390291,
+                "stop": 1745525391162,
+                "duration": 871
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Should add \"Sauce Labs Bike Light\" to cart successfully",
+              "uid": "9790739bae325ac7",
+              "parentUid": "645319361c62274388e2e715cafd58f2",
+              "status": "passed",
+              "time": {
+                "start": 1745525391171,
+                "stop": 1745525391933,
+                "duration": 762
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            }
+          ],
+          "uid": "645319361c62274388e2e715cafd58f2"
+        }
+      ],
+      "uid": "e7d37760921cc7149230f7e8d610c41d"
+    },
+    {
+      "name": "src/tests/data-driven-test/login.spec.ts",
+      "children": [
+        {
+          "name": "Should login successfully with username: \"standard_user\"",
+          "uid": "d14342332bbe7070",
+          "parentUid": "0b840cb0017a9e2ced85b10ab858a434",
+          "status": "passed",
+          "time": {
+            "start": 1745525381906,
+            "stop": 1745525384654,
+            "duration": 2748
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        },
+        {
+          "name": "Should login successfully with username: \"locked_out_user\"",
+          "uid": "42bad52eb7d5c1db",
+          "parentUid": "0b840cb0017a9e2ced85b10ab858a434",
+          "status": "passed",
+          "time": {
+            "start": 1745525386871,
+            "stop": 1745525387670,
+            "duration": 799
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        },
+        {
+          "name": "Should login successfully with username: \"problem_user\"",
+          "uid": "b94654af3b36c9b2",
+          "parentUid": "0b840cb0017a9e2ced85b10ab858a434",
+          "status": "passed",
+          "time": {
+            "start": 1745525387673,
+            "stop": 1745525388583,
+            "duration": 910
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        },
+        {
+          "name": "Should login successfully with username: \"performance_glitch_user\"",
+          "uid": "3ea3fcc2b575661f",
+          "parentUid": "0b840cb0017a9e2ced85b10ab858a434",
+          "status": "passed",
+          "time": {
+            "start": 1745525388596,
+            "stop": 1745525394551,
+            "duration": 5955
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        },
+        {
+          "name": "Should login successfully with username: \"error_user\"",
+          "uid": "8f23393b57ab9b09",
+          "parentUid": "0b840cb0017a9e2ced85b10ab858a434",
+          "status": "passed",
+          "time": {
+            "start": 1745525394570,
+            "stop": 1745525395375,
+            "duration": 805
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        },
+        {
+          "name": "Should login successfully with username: \"visual_user\"",
+          "uid": "d6dfb1165e7da3c3",
+          "parentUid": "0b840cb0017a9e2ced85b10ab858a434",
+          "status": "passed",
+          "time": {
+            "start": 1745525395388,
+            "stop": 1745525396201,
+            "duration": 813
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        }
+      ],
+      "uid": "0b840cb0017a9e2ced85b10ab858a434"
+    },
+    {
+      "name": "src/tests/accessibility/axe/homepage-accessibility.spec.ts",
+      "children": [
+        {
+          "name": "Accessibility",
+          "children": [
+            {
+              "name": "Accessibility keyboard navigation",
+              "uid": "9faa16fdc1b8ff7c",
+              "parentUid": "b327ef9ed69c7167f23ee74ad99275d0",
+              "status": "passed",
+              "time": {
+                "start": 1745525381963,
+                "stop": 1745525384825,
+                "duration": 2862
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Axe - Analysis and reporting with tags",
+              "uid": "493d50779b36a174",
+              "parentUid": "b327ef9ed69c7167f23ee74ad99275d0",
+              "status": "passed",
+              "time": {
+                "start": 1745525386996,
+                "stop": 1745525389138,
+                "duration": 2142
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Axe - Analysis and reporting without tags",
+              "uid": "a2a1af320559b174",
+              "parentUid": "b327ef9ed69c7167f23ee74ad99275d0",
+              "status": "failed",
+              "time": {
+                "start": 1745525389149,
+                "stop": 1745525390922,
+                "duration": 1773
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Accessibility assertions - a11y matches",
+              "uid": "79bca2678adbd519",
+              "parentUid": "b327ef9ed69c7167f23ee74ad99275d0",
+              "status": "passed",
+              "time": {
+                "start": 1745525393204,
+                "stop": 1745525394036,
+                "duration": 832
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            }
+          ],
+          "uid": "b327ef9ed69c7167f23ee74ad99275d0"
+        }
+      ],
+      "uid": "d9e722abf7500eecddbc462fcb6735a8"
+    },
+    {
+      "name": "src/tests/e2e/e2e.spec.ts",
+      "children": [
+        {
+          "name": "E2E: The standard user can log in and complete a product purchase successfully",
+          "uid": "91a429f85eeb67b3",
+          "parentUid": "6c192d5577f3720d341a6db136491cbf",
+          "status": "passed",
+          "time": {
+            "start": 1745525391948,
+            "stop": 1745525393193,
+            "duration": 1245
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        }
+      ],
+      "uid": "6c192d5577f3720d341a6db136491cbf"
+    },
+    {
+      "name": "src/tests/smoke/cart.spec.ts",
+      "children": [
+        {
+          "name": "Smoke: Standard user login and basic cart functionality",
+          "uid": "158deb01d3c9b907",
+          "parentUid": "e1d7c525d6ee9895f9e5388f5eb67f40",
+          "status": "passed",
+          "time": {
+            "start": 1745525392122,
+            "stop": 1745525392939,
+            "duration": 817
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        }
+      ],
+      "uid": "e1d7c525d6ee9895f9e5388f5eb67f40"
+    },
+    {
+      "name": "src/tests/smoke/footer.spec.ts",
+      "children": [
+        {
+          "name": "Smoke: Standard user can log in and verify footer UI elements",
+          "uid": "7ba8c42c2f386851",
+          "parentUid": "d3109dcd701d97bb88159ee2ec8aa6eb",
+          "status": "passed",
+          "time": {
+            "start": 1745525392953,
+            "stop": 1745525398142,
+            "duration": 5189
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        }
+      ],
+      "uid": "d3109dcd701d97bb88159ee2ec8aa6eb"
+    },
+    {
+      "name": "src/tests/smoke/inventory.spec.ts",
+      "children": [
+        {
+          "name": "Smoke: Standard user login and verifies inventory page & the products visibility",
+          "uid": "6028e6a22b3dfe14",
+          "parentUid": "a6a16b2d7c6970c8ccdb61fecdbdf0d9",
+          "status": "passed",
+          "time": {
+            "start": 1745525393220,
+            "stop": 1745525394231,
+            "duration": 1011
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        }
+      ],
+      "uid": "a6a16b2d7c6970c8ccdb61fecdbdf0d9"
+    },
+    {
+      "name": "src/tests/smoke/login.spec.ts",
+      "children": [
+        {
+          "name": "Smoke: Login flow",
+          "children": [
+            {
+              "name": "The standard_user should be able to log in",
+              "uid": "5ba8f32712a66826",
+              "parentUid": "2852f37a55f7963c6309d5af9ae4fb51",
+              "status": "passed",
+              "time": {
+                "start": 1745525394237,
+                "stop": 1745525395023,
+                "duration": 786
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "The locked_out_user should not be able to log in",
+              "uid": "66d4bf72c30083f4",
+              "parentUid": "2852f37a55f7963c6309d5af9ae4fb51",
+              "status": "passed",
+              "time": {
+                "start": 1745525395032,
+                "stop": 1745525395733,
+                "duration": 701
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            }
+          ],
+          "uid": "2852f37a55f7963c6309d5af9ae4fb51"
+        }
+      ],
+      "uid": "0372e61f5dc3534f03a996e08564790b"
+    },
+    {
+      "name": "src/tests/smoke/menu.spec.ts",
+      "children": [
+        {
+          "name": "Smoke: Menu item tests",
+          "children": [
+            {
+              "name": "Smoke: Verifies that the \"All items\" option in the menu is functional",
+              "uid": "5c1d4016e1c88bf7",
+              "parentUid": "89eb9ccfa28576b081b24324cd853bcf",
+              "status": "passed",
+              "time": {
+                "start": 1745525394435,
+                "stop": 1745525396286,
+                "duration": 1851
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "Smoke: Verifies that the \"Logout\" option in the menu is functional",
+              "uid": "7b03fe394ef7a687",
+              "parentUid": "89eb9ccfa28576b081b24324cd853bcf",
+              "status": "passed",
+              "time": {
+                "start": 1745525396292,
+                "stop": 1745525398062,
+                "duration": 1770
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            }
+          ],
+          "uid": "89eb9ccfa28576b081b24324cd853bcf"
+        }
+      ],
+      "uid": "7b29bee35c1b858c858dbd8d34e7b528"
+    },
+    {
+      "name": "src/tests/visual/checkoutCompletePage-visual.spec.ts",
+      "children": [
+        {
+          "name": "Visual: Checkout completion screen renders correctly",
+          "uid": "7a4d977df8116917",
+          "parentUid": "1cb7d0ec91b6002db3c8b9ef56da90c4",
+          "status": "passed",
+          "time": {
+            "start": 1745525395745,
+            "stop": 1745525397270,
+            "duration": 1525
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        }
+      ],
+      "uid": "1cb7d0ec91b6002db3c8b9ef56da90c4"
+    },
+    {
+      "name": "src/tests/visual/homepage-visual.spec.ts",
+      "children": [
+        {
+          "name": "Visual: Homepage should match design snapshot",
+          "uid": "7f2eace90d904661",
+          "parentUid": "2875cccc3fe111ff4e17fd5f679ef10d",
+          "status": "passed",
+          "time": {
+            "start": 1745525396214,
+            "stop": 1745525397056,
+            "duration": 842
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        }
+      ],
+      "uid": "2875cccc3fe111ff4e17fd5f679ef10d"
+    },
+    {
+      "name": "src/tests/visual/inventorypage-visual.spec.ts",
+      "children": [
+        {
+          "name": "Visual: Inventory page renders correctly after login and product sort",
+          "uid": "715eafdf71e60ec4",
+          "parentUid": "1526980cd047805cc662bf4a0f5f2f59",
+          "status": "passed",
+          "time": {
+            "start": 1745525397079,
+            "stop": 1745525398102,
+            "duration": 1023
+          },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 1,
+          "retriesStatusChange": true,
+          "parameters": [],
+          "tags": []
+        }
+      ],
+      "uid": "1526980cd047805cc662bf4a0f5f2f59"
+    },
+    {
+      "name": "src/tests/mobile/mobile.spec.ts",
+      "children": [
+        {
+          "name": "Smoke: Login flow",
+          "children": [
+            {
+              "name": "The standard_user should be able to log in",
+              "uid": "1f270c935141c53a",
+              "parentUid": "62f8c275eeb218279cd27594154f275f",
+              "status": "passed",
+              "time": {
+                "start": 1745525398723,
+                "stop": 1745525401121,
+                "duration": 2398
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            },
+            {
+              "name": "The locked_out_user should not be able to log in",
+              "uid": "769211adcf02db3d",
+              "parentUid": "62f8c275eeb218279cd27594154f275f",
+              "status": "passed",
+              "time": {
+                "start": 1745525408894,
+                "stop": 1745525409603,
+                "duration": 709
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": true,
+              "parameters": [],
+              "tags": []
+            }
+          ],
+          "uid": "62f8c275eeb218279cd27594154f275f"
+        }
+      ],
+      "uid": "bf0bd1e3dc491e5b525189bac0e1e492"
+    }
+  ]
+}

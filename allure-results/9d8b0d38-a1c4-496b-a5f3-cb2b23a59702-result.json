@@ -1,1 +1,418 @@
-{"uuid":"9d8b0d38-a1c4-496b-a5f3-cb2b23a59702","name":"Should fill checkout info for \"Bukayo Saka 66666\" successfully","historyId":"2d10475d276ffc2d42e9b5d9c70d49f5:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browser.newContext","start":1745525391283,"stop":1745525391287}],"attachments":[],"parameters":[],"name":"fixture: context","start":1745525391282,"stop":1745525391288},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserContext.newPage","start":1745525391289,"stop":1745525391370}],"attachments":[],"parameters":[],"name":"fixture: page","start":1745525391288,"stop":1745525391370},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745525391371,"stop":1745525391371},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: inventoryPage","start":1745525391371,"stop":1745525391371},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: cartPage","start":1745525391372,"stop":1745525391372},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page.goto(https://www.saucedemo.com/)","start":1745525391373,"stop":1745525391610},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"expect.toContainText","start":1745525391612,"stop":1745525391642},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.fill(standard_user)","start":1745525391643,"stop":1745525391666},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.fill(secret_sauce)","start":1745525391668,"stop":1745525391797},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.getByRole('button', { name: 'Login' }).click","start":1745525391800,"stop":1745525391892},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.click([class=\"inventory_item\"] >> nth=1 >> internal:role=button[name=\"Add to cart\"i])","start":1745525391893,"stop":1745525391940},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.click([class=\"shopping_cart_container\"])","start":1745525391942,"stop":1745525391986},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page.waitForURL","start":1745525391987,"stop":1745525391988},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.getByRole('button', { name: 'Checkout' }).isVisible","start":1745525391988,"stop":1745525391991},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.getByRole('button', { name: 'Checkout' }).click","start":1745525391992,"stop":1745525392039},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"expect.toHaveURL","start":1745525392040,"stop":1745525392046}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1745525391278,"stop":1745525392047},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: checkoutStepOnePage","start":1745525392049,"stop":1745525392049}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1745525391278,"stop":1745525392049},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525392050,"name":"locator.fill(Bukayo)","stop":1745525392060},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525392061,"name":"expect.toBeVisible","stop":1745525392066},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525392067,"name":"locator.fill(Saka)","stop":1745525392079},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525392080,"name":"expect.toBeVisible","stop":1745525392083},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525392084,"name":"locator.fill(66666)","stop":1745525392095},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525392096,"name":"expect.toBeVisible","stop":1745525392101},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: checkoutStepOnePage","start":1745525392102,"stop":1745525392102},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: cartPage","start":1745525392102,"stop":1745525392102},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: inventoryPage","start":1745525392103,"stop":1745525392103},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745525392104,"stop":1745525392104},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: page","start":1745525392104,"stop":1745525392104},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: context","start":1745525392104,"stop":1745525392104}],"attachments":[],"parameters":[],"name":"After Hooks","start":1745525392101,"stop":1745525392115}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.data-driven-test.checkoutInfo.spec.ts"},{"name":"titlePath","value":" >  > src/tests/data-driven-test/checkoutInfo.spec.ts > Add-to-Cart and Checkout Step One setup using product data"},{"name":"host","value":"MacBookPro"},{"name":"thread","value":"pid-56713-worker-2"},{"name":"suite","value":"src/tests/data-driven-test/checkoutInfo.spec.ts"},{"name":"subSuite","value":"Add-to-Cart and Checkout Step One setup using product data"}],"links":[],"start":1745525391287,"testCaseId":"2d10475d276ffc2d42e9b5d9c70d49f5","fullName":"src/tests/data-driven-test/checkoutInfo.spec.ts:16:9","stop":1745525392114}
+{
+  "uuid": "9d8b0d38-a1c4-496b-a5f3-cb2b23a59702",
+  "name": "Should fill checkout info for \"Bukayo Saka 66666\" successfully",
+  "historyId": "2d10475d276ffc2d42e9b5d9c70d49f5:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browser.newContext",
+                  "start": 1745525391283,
+                  "stop": 1745525391287
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: context",
+              "start": 1745525391282,
+              "stop": 1745525391288
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserContext.newPage",
+                  "start": 1745525391289,
+                  "stop": 1745525391370
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: page",
+              "start": 1745525391288,
+              "stop": 1745525391370
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: homePage",
+              "start": 1745525391371,
+              "stop": 1745525391371
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: inventoryPage",
+              "start": 1745525391371,
+              "stop": 1745525391371
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: cartPage",
+              "start": 1745525391372,
+              "stop": 1745525391372
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "page.goto(https://www.saucedemo.com/)",
+              "start": 1745525391373,
+              "stop": 1745525391610
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "expect.toContainText",
+              "start": 1745525391612,
+              "stop": 1745525391642
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.fill(standard_user)",
+              "start": 1745525391643,
+              "stop": 1745525391666
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.fill(secret_sauce)",
+              "start": 1745525391668,
+              "stop": 1745525391797
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.getByRole('button', { name: 'Login' }).click",
+              "start": 1745525391800,
+              "stop": 1745525391892
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.click([class=\"inventory_item\"] >> nth=1 >> internal:role=button[name=\"Add to cart\"i])",
+              "start": 1745525391893,
+              "stop": 1745525391940
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.click([class=\"shopping_cart_container\"])",
+              "start": 1745525391942,
+              "stop": 1745525391986
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "page.waitForURL",
+              "start": 1745525391987,
+              "stop": 1745525391988
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.getByRole('button', { name: 'Checkout' }).isVisible",
+              "start": 1745525391988,
+              "stop": 1745525391991
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.getByRole('button', { name: 'Checkout' }).click",
+              "start": 1745525391992,
+              "stop": 1745525392039
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "expect.toHaveURL",
+              "start": 1745525392040,
+              "stop": 1745525392046
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1745525391278,
+          "stop": 1745525392047
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: checkoutStepOnePage",
+          "start": 1745525392049,
+          "stop": 1745525392049
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1745525391278,
+      "stop": 1745525392049
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525392050,
+      "name": "locator.fill(Bukayo)",
+      "stop": 1745525392060
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525392061,
+      "name": "expect.toBeVisible",
+      "stop": 1745525392066
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525392067,
+      "name": "locator.fill(Saka)",
+      "stop": 1745525392079
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525392080,
+      "name": "expect.toBeVisible",
+      "stop": 1745525392083
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525392084,
+      "name": "locator.fill(66666)",
+      "stop": 1745525392095
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525392096,
+      "name": "expect.toBeVisible",
+      "stop": 1745525392101
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: checkoutStepOnePage",
+          "start": 1745525392102,
+          "stop": 1745525392102
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: cartPage",
+          "start": 1745525392102,
+          "stop": 1745525392102
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: inventoryPage",
+          "start": 1745525392103,
+          "stop": 1745525392103
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: homePage",
+          "start": 1745525392104,
+          "stop": 1745525392104
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1745525392104,
+          "stop": 1745525392104
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1745525392104,
+          "stop": 1745525392104
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1745525392101,
+      "stop": 1745525392115
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "src.tests.data-driven-test.checkoutInfo.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/data-driven-test/checkoutInfo.spec.ts > Add-to-Cart and Checkout Step One setup using product data"
+    },
+    { "name": "host", "value": "MacBookPro" },
+    { "name": "thread", "value": "pid-56713-worker-2" },
+    {
+      "name": "suite",
+      "value": "src/tests/data-driven-test/checkoutInfo.spec.ts"
+    },
+    {
+      "name": "subSuite",
+      "value": "Add-to-Cart and Checkout Step One setup using product data"
+    }
+  ],
+  "links": [],
+  "start": 1745525391287,
+  "testCaseId": "2d10475d276ffc2d42e9b5d9c70d49f5",
+  "fullName": "src/tests/data-driven-test/checkoutInfo.spec.ts:16:9",
+  "stop": 1745525392114
+}

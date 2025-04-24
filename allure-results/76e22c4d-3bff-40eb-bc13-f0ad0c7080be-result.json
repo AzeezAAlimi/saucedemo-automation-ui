@@ -1,1 +1,606 @@
-{"uuid":"76e22c4d-3bff-40eb-bc13-f0ad0c7080be","name":"Visual: Checkout completion screen renders correctly","historyId":"e81a1e6716f619ca3afaafa36384b075:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browser.newContext","start":1745525395748,"stop":1745525395750}],"attachments":[],"parameters":[],"name":"fixture: context","start":1745525395747,"stop":1745525395751},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserContext.newPage","start":1745525395754,"stop":1745525395891}],"attachments":[],"parameters":[],"name":"fixture: page","start":1745525395752,"stop":1745525395891},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745525395892,"stop":1745525395892},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: inventoryPage","start":1745525395892,"stop":1745525395892},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: cartPage","start":1745525395900,"stop":1745525395900},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: checkoutStepOnePage","start":1745525395906,"stop":1745525395906},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: checkoutSteptwoPage","start":1745525395907,"stop":1745525395907},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: checkoutCompletePage","start":1745525395907,"stop":1745525395908}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1745525395745,"stop":1745525395908},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525395912,"name":"page.goto(https://www.saucedemo.com/)","stop":1745525396206},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396208,"name":"expect.toContainText","stop":1745525396353},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396355,"name":"locator.fill(standard_user)","stop":1745525396383},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396385,"name":"locator.fill(secret_sauce)","stop":1745525396519},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396520,"name":"locator.getByRole('button', { name: 'Login' }).click","stop":1745525396623},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396624,"name":"locator.click([class=\"product_sort_container\"])","stop":1745525396691},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396693,"name":"locator.selectOption([class=\"product_sort_container\"])","stop":1745525396710},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396712,"name":"locator.click([class=\"inventory_item\"] >> nth=1 >> internal:role=button[name=\"Add to cart\"i])","stop":1745525396750},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396752,"name":"locator.click([class=\"shopping_cart_container\"])","stop":1745525396815},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396816,"name":"page.waitForURL","stop":1745525396816},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396817,"name":"locator.count([class=\"cart_item\"])","stop":1745525396819},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396820,"name":"locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_name\\\"]\")","stop":1745525396834},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396835,"name":"locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")","stop":1745525396838},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396840,"name":"locator.getByRole('button', { name: 'Checkout' }).isVisible","stop":1745525396846},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396848,"name":"locator.getByRole('button', { name: 'Checkout' }).click","stop":1745525396869},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396870,"name":"expect.toHaveURL","stop":1745525396874},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396876,"name":"locator.fill(Mark)","stop":1745525396886},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396887,"name":"expect.toBeVisible","stop":1745525396890},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396891,"name":"locator.fill(Jason)","stop":1745525396900},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396901,"name":"expect.toBeVisible","stop":1745525396905},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396906,"name":"locator.fill(12336)","stop":1745525396917},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396918,"name":"expect.toBeVisible","stop":1745525396925},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396926,"name":"locator.getByRole('button', { name: 'Continue' }).isVisible","stop":1745525396930},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396931,"name":"locator.getByRole('button', { name: 'Continue' }).click","stop":1745525396982},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396983,"name":"expect.toHaveURL","stop":1745525396988},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396989,"name":"locator.allInnerTexts([class=\"inventory_item_name\"])","stop":1745525396997},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525396999,"name":"expect.toEqual","stop":1745525396999},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525397000,"name":"locator.getByRole('button', { name: 'Finish' }).isVisible","stop":1745525397003},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525397004,"name":"locator.getByRole('button', { name: 'Finish' }).click","stop":1745525397052},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525397058,"name":"expect.toHaveURL","stop":1745525397063},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525397064,"name":"expect.toHaveScreenshot(checkoutCompletePage.png)","stop":1745525397278},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: checkoutCompletePage","start":1745525397278,"stop":1745525397278},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: checkoutSteptwoPage","start":1745525397278,"stop":1745525397278},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: checkoutStepOnePage","start":1745525397279,"stop":1745525397279},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: cartPage","start":1745525397279,"stop":1745525397279},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: inventoryPage","start":1745525397279,"stop":1745525397279},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745525397279,"stop":1745525397279},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: page","start":1745525397279,"stop":1745525397279},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: context","start":1745525397279,"stop":1745525397279}],"attachments":[],"parameters":[],"name":"After Hooks","start":1745525397278,"stop":1745525397289}],"attachments":[{"name":"stdout","source":"b17ff4e3-98ea-417b-9ede-05664ae97cc4-attachment.txt","type":"text/plain"}],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.visual.checkoutCompletePage-visual.spec.ts"},{"name":"titlePath","value":" >  > src/tests/visual/checkoutCompletePage-visual.spec.ts"},{"name":"host","value":"MacBookPro"},{"name":"thread","value":"pid-56713-worker-1"},{"name":"suite","value":"src/tests/visual/checkoutCompletePage-visual.spec.ts"}],"links":[],"start":1745525395745,"testCaseId":"e81a1e6716f619ca3afaafa36384b075","fullName":"src/tests/visual/checkoutCompletePage-visual.spec.ts:5:5","stop":1745525397270}
+{
+  "uuid": "76e22c4d-3bff-40eb-bc13-f0ad0c7080be",
+  "name": "Visual: Checkout completion screen renders correctly",
+  "historyId": "e81a1e6716f619ca3afaafa36384b075:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browser.newContext",
+              "start": 1745525395748,
+              "stop": 1745525395750
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1745525395747,
+          "stop": 1745525395751
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browserContext.newPage",
+              "start": 1745525395754,
+              "stop": 1745525395891
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1745525395752,
+          "stop": 1745525395891
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: homePage",
+          "start": 1745525395892,
+          "stop": 1745525395892
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: inventoryPage",
+          "start": 1745525395892,
+          "stop": 1745525395892
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: cartPage",
+          "start": 1745525395900,
+          "stop": 1745525395900
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: checkoutStepOnePage",
+          "start": 1745525395906,
+          "stop": 1745525395906
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: checkoutSteptwoPage",
+          "start": 1745525395907,
+          "stop": 1745525395907
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: checkoutCompletePage",
+          "start": 1745525395907,
+          "stop": 1745525395908
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1745525395745,
+      "stop": 1745525395908
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525395912,
+      "name": "page.goto(https://www.saucedemo.com/)",
+      "stop": 1745525396206
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396208,
+      "name": "expect.toContainText",
+      "stop": 1745525396353
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396355,
+      "name": "locator.fill(standard_user)",
+      "stop": 1745525396383
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396385,
+      "name": "locator.fill(secret_sauce)",
+      "stop": 1745525396519
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396520,
+      "name": "locator.getByRole('button', { name: 'Login' }).click",
+      "stop": 1745525396623
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396624,
+      "name": "locator.click([class=\"product_sort_container\"])",
+      "stop": 1745525396691
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396693,
+      "name": "locator.selectOption([class=\"product_sort_container\"])",
+      "stop": 1745525396710
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396712,
+      "name": "locator.click([class=\"inventory_item\"] >> nth=1 >> internal:role=button[name=\"Add to cart\"i])",
+      "stop": 1745525396750
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396752,
+      "name": "locator.click([class=\"shopping_cart_container\"])",
+      "stop": 1745525396815
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396816,
+      "name": "page.waitForURL",
+      "stop": 1745525396816
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396817,
+      "name": "locator.count([class=\"cart_item\"])",
+      "stop": 1745525396819
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396820,
+      "name": "locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_name\\\"]\")",
+      "stop": 1745525396834
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396835,
+      "name": "locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")",
+      "stop": 1745525396838
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396840,
+      "name": "locator.getByRole('button', { name: 'Checkout' }).isVisible",
+      "stop": 1745525396846
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396848,
+      "name": "locator.getByRole('button', { name: 'Checkout' }).click",
+      "stop": 1745525396869
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396870,
+      "name": "expect.toHaveURL",
+      "stop": 1745525396874
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396876,
+      "name": "locator.fill(Mark)",
+      "stop": 1745525396886
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396887,
+      "name": "expect.toBeVisible",
+      "stop": 1745525396890
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396891,
+      "name": "locator.fill(Jason)",
+      "stop": 1745525396900
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396901,
+      "name": "expect.toBeVisible",
+      "stop": 1745525396905
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396906,
+      "name": "locator.fill(12336)",
+      "stop": 1745525396917
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396918,
+      "name": "expect.toBeVisible",
+      "stop": 1745525396925
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396926,
+      "name": "locator.getByRole('button', { name: 'Continue' }).isVisible",
+      "stop": 1745525396930
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396931,
+      "name": "locator.getByRole('button', { name: 'Continue' }).click",
+      "stop": 1745525396982
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396983,
+      "name": "expect.toHaveURL",
+      "stop": 1745525396988
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396989,
+      "name": "locator.allInnerTexts([class=\"inventory_item_name\"])",
+      "stop": 1745525396997
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525396999,
+      "name": "expect.toEqual",
+      "stop": 1745525396999
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525397000,
+      "name": "locator.getByRole('button', { name: 'Finish' }).isVisible",
+      "stop": 1745525397003
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525397004,
+      "name": "locator.getByRole('button', { name: 'Finish' }).click",
+      "stop": 1745525397052
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525397058,
+      "name": "expect.toHaveURL",
+      "stop": 1745525397063
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525397064,
+      "name": "expect.toHaveScreenshot(checkoutCompletePage.png)",
+      "stop": 1745525397278
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: checkoutCompletePage",
+          "start": 1745525397278,
+          "stop": 1745525397278
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: checkoutSteptwoPage",
+          "start": 1745525397278,
+          "stop": 1745525397278
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: checkoutStepOnePage",
+          "start": 1745525397279,
+          "stop": 1745525397279
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: cartPage",
+          "start": 1745525397279,
+          "stop": 1745525397279
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: inventoryPage",
+          "start": 1745525397279,
+          "stop": 1745525397279
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: homePage",
+          "start": 1745525397279,
+          "stop": 1745525397279
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1745525397279,
+          "stop": 1745525397279
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1745525397279,
+          "stop": 1745525397279
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1745525397278,
+      "stop": 1745525397289
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "b17ff4e3-98ea-417b-9ede-05664ae97cc4-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "src.tests.visual.checkoutCompletePage-visual.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/visual/checkoutCompletePage-visual.spec.ts"
+    },
+    { "name": "host", "value": "MacBookPro" },
+    { "name": "thread", "value": "pid-56713-worker-1" },
+    {
+      "name": "suite",
+      "value": "src/tests/visual/checkoutCompletePage-visual.spec.ts"
+    }
+  ],
+  "links": [],
+  "start": 1745525395745,
+  "testCaseId": "e81a1e6716f619ca3afaafa36384b075",
+  "fullName": "src/tests/visual/checkoutCompletePage-visual.spec.ts:5:5",
+  "stop": 1745525397270
+}

@@ -1,1 +1,183 @@
-{"uid":"b6b721d53b4fb1b0","name":"Should fill checkout info for \"Jurrien Timber 55555\" successfully","fullName":"src/tests/data-driven-test/checkoutInfo.spec.ts:16:9","historyId":"559decbb43d6f343ee633f9061eec29c:d41d8cd98f00b204e9800998ecf8427e","time":{"start":1745525146236,"stop":1745525146248,"duration":12},"status":"failed","statusMessage":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","statusTrace":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","flaky":false,"newFailed":false,"newBroken":false,"newPassed":false,"retriesCount":0,"retriesStatusChange":false,"beforeStages":[],"testStage":{"status":"failed","statusMessage":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","statusTrace":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","steps":[{"name":"Before Hooks","time":{"start":1745525146221,"stop":1745525146262,"duration":41},"status":"failed","statusMessage":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","statusTrace":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","steps":[{"name":"beforeEach hook","time":{"start":1745525146223,"stop":1745525146262,"duration":39},"status":"failed","statusMessage":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","statusTrace":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","steps":[{"name":"fixture: browser","time":{"start":1745525146236,"stop":1745525146262,"duration":26},"status":"failed","statusMessage":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","statusTrace":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","steps":[{"name":"browserType.launch","time":{"start":1745525146248,"stop":1745525146261,"duration":13},"status":"failed","statusMessage":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","statusTrace":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":true,"stepsCount":0,"attachmentsCount":0,"hasContent":true,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":1,"attachmentsCount":0,"hasContent":true,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":2,"attachmentsCount":0,"hasContent":true,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":3,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"_error-context-0","time":{"start":1745525146285,"stop":1745525146285,"duration":0},"status":"unknown","steps":[],"attachments":[{"uid":"a6bbea33192bf693","name":"_error-context-0","source":"a6bbea33192bf693.md","type":"text/markdown","size":2733}],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":1,"hasContent":true,"attachmentStep":true},{"name":"After Hooks","time":{"start":1745525146262,"stop":1745525146275,"duration":13},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":6,"attachmentsCount":1,"hasContent":true,"attachmentStep":false},"afterStages":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.data-driven-test.checkoutInfo.spec.ts"},{"name":"titlePath","value":" >  > src/tests/data-driven-test/checkoutInfo.spec.ts > Add-to-Cart and Checkout Step One setup using product data"},{"name":"host","value":"MacBookPro"},{"name":"thread","value":"pid-56265-worker-2"},{"name":"suite","value":"src/tests/data-driven-test/checkoutInfo.spec.ts"},{"name":"subSuite","value":"Add-to-Cart and Checkout Step One setup using product data"},{"name":"resultFormat","value":"allure2"}],"parameters":[],"links":[],"hidden":true,"retry":true,"extra":{"categories":[],"tags":[]},"source":"b6b721d53b4fb1b0.json","parameterValues":[]}
+{
+  "uid": "b6b721d53b4fb1b0",
+  "name": "Should fill checkout info for \"Jurrien Timber 55555\" successfully",
+  "fullName": "src/tests/data-driven-test/checkoutInfo.spec.ts:16:9",
+  "historyId": "559decbb43d6f343ee633f9061eec29c:d41d8cd98f00b204e9800998ecf8427e",
+  "time": { "start": 1745525146236, "stop": 1745525146248, "duration": 12 },
+  "status": "failed",
+  "statusMessage": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+  "statusTrace": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "failed",
+    "statusMessage": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+    "statusTrace": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+    "steps": [
+      {
+        "name": "Before Hooks",
+        "time": {
+          "start": 1745525146221,
+          "stop": 1745525146262,
+          "duration": 41
+        },
+        "status": "failed",
+        "statusMessage": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+        "statusTrace": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+        "steps": [
+          {
+            "name": "beforeEach hook",
+            "time": {
+              "start": 1745525146223,
+              "stop": 1745525146262,
+              "duration": 39
+            },
+            "status": "failed",
+            "statusMessage": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+            "statusTrace": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+            "steps": [
+              {
+                "name": "fixture: browser",
+                "time": {
+                  "start": 1745525146236,
+                  "stop": 1745525146262,
+                  "duration": 26
+                },
+                "status": "failed",
+                "statusMessage": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                "statusTrace": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                "steps": [
+                  {
+                    "name": "browserType.launch",
+                    "time": {
+                      "start": 1745525146248,
+                      "stop": 1745525146261,
+                      "duration": 13
+                    },
+                    "status": "failed",
+                    "statusMessage": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "statusTrace": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+                    "steps": [],
+                    "attachments": [],
+                    "parameters": [],
+                    "shouldDisplayMessage": true,
+                    "stepsCount": 0,
+                    "attachmentsCount": 0,
+                    "hasContent": true,
+                    "attachmentStep": false
+                  }
+                ],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 1,
+                "attachmentsCount": 0,
+                "hasContent": true,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 2,
+            "attachmentsCount": 0,
+            "hasContent": true,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 3,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      },
+      {
+        "name": "_error-context-0",
+        "time": {
+          "start": 1745525146285,
+          "stop": 1745525146285,
+          "duration": 0
+        },
+        "status": "unknown",
+        "steps": [],
+        "attachments": [
+          {
+            "uid": "a6bbea33192bf693",
+            "name": "_error-context-0",
+            "source": "a6bbea33192bf693.md",
+            "type": "text/markdown",
+            "size": 2733
+          }
+        ],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 1,
+        "hasContent": true,
+        "attachmentStep": true
+      },
+      {
+        "name": "After Hooks",
+        "time": {
+          "start": 1745525146262,
+          "stop": 1745525146275,
+          "duration": 13
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "shouldDisplayMessage": false,
+    "stepsCount": 6,
+    "attachmentsCount": 1,
+    "hasContent": true,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "src.tests.data-driven-test.checkoutInfo.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/data-driven-test/checkoutInfo.spec.ts > Add-to-Cart and Checkout Step One setup using product data"
+    },
+    { "name": "host", "value": "MacBookPro" },
+    { "name": "thread", "value": "pid-56265-worker-2" },
+    {
+      "name": "suite",
+      "value": "src/tests/data-driven-test/checkoutInfo.spec.ts"
+    },
+    {
+      "name": "subSuite",
+      "value": "Add-to-Cart and Checkout Step One setup using product data"
+    },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": true,
+  "retry": true,
+  "extra": { "categories": [], "tags": [] },
+  "source": "b6b721d53b4fb1b0.json",
+  "parameterValues": []
+}

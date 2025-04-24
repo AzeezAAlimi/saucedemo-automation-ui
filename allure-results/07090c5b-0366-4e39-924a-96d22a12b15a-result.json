@@ -1,1 +1,245 @@
-{"uuid":"07090c5b-0366-4e39-924a-96d22a12b15a","name":"The standard_user should be able to log in","historyId":"9c077c354cd6c49695816cf0ff1d6375:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserType.launch","start":1745525398741,"stop":1745525406487}],"attachments":[],"parameters":[],"name":"fixture: browser","start":1745525398738,"stop":1745525406488},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browser.newContext","start":1745525406491,"stop":1745525406569}],"attachments":[],"parameters":[],"name":"fixture: context","start":1745525406489,"stop":1745525406571},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserContext.newPage","start":1745525406574,"stop":1745525408187}],"attachments":[],"parameters":[],"name":"fixture: page","start":1745525406572,"stop":1745525408187},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745525408188,"stop":1745525408189},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page.goto(https://www.saucedemo.com/)","start":1745525408195,"stop":1745525408543},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"expect.toContainText","start":1745525408546,"stop":1745525408594},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page.screenshot","start":1745525408595,"stop":1745525408667}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1745525398729,"stop":1745525408671}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1745525398728,"stop":1745525408671},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525408673,"name":"locator.fill(standard_user)","stop":1745525408723},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525408724,"name":"locator.fill(secret_sauce)","stop":1745525408745},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745525408746,"name":"locator.getByRole('button', { name: 'Login' }).click","stop":1745525408865},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745525408867,"stop":1745525408867},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: page","start":1745525408868,"stop":1745525408868},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: context","start":1745525408868,"stop":1745525408868}],"attachments":[],"parameters":[],"name":"After Hooks","start":1745525408866,"stop":1745525408889}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.mobile.mobile.spec.ts"},{"name":"titlePath","value":" >  > src/tests/mobile/mobile.spec.ts > Smoke: Login flow"},{"name":"host","value":"MacBookPro"},{"name":"thread","value":"pid-56713-worker-1"},{"name":"suite","value":"src/tests/mobile/mobile.spec.ts"},{"name":"subSuite","value":"Smoke: Login flow"}],"links":[],"start":1745525398723,"testCaseId":"9c077c354cd6c49695816cf0ff1d6375","fullName":"src/tests/mobile/mobile.spec.ts:18:7","stop":1745525401121}
+{
+  "uuid": "07090c5b-0366-4e39-924a-96d22a12b15a",
+  "name": "The standard_user should be able to log in",
+  "historyId": "9c077c354cd6c49695816cf0ff1d6375:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserType.launch",
+                  "start": 1745525398741,
+                  "stop": 1745525406487
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: browser",
+              "start": 1745525398738,
+              "stop": 1745525406488
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browser.newContext",
+                  "start": 1745525406491,
+                  "stop": 1745525406569
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: context",
+              "start": 1745525406489,
+              "stop": 1745525406571
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserContext.newPage",
+                  "start": 1745525406574,
+                  "stop": 1745525408187
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: page",
+              "start": 1745525406572,
+              "stop": 1745525408187
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: homePage",
+              "start": 1745525408188,
+              "stop": 1745525408189
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "page.goto(https://www.saucedemo.com/)",
+              "start": 1745525408195,
+              "stop": 1745525408543
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "expect.toContainText",
+              "start": 1745525408546,
+              "stop": 1745525408594
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "page.screenshot",
+              "start": 1745525408595,
+              "stop": 1745525408667
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1745525398729,
+          "stop": 1745525408671
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1745525398728,
+      "stop": 1745525408671
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525408673,
+      "name": "locator.fill(standard_user)",
+      "stop": 1745525408723
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525408724,
+      "name": "locator.fill(secret_sauce)",
+      "stop": 1745525408745
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745525408746,
+      "name": "locator.getByRole('button', { name: 'Login' }).click",
+      "stop": 1745525408865
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: homePage",
+          "start": 1745525408867,
+          "stop": 1745525408867
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1745525408868,
+          "stop": 1745525408868
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1745525408868,
+          "stop": 1745525408868
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1745525408866,
+      "stop": 1745525408889
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.mobile.mobile.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/mobile/mobile.spec.ts > Smoke: Login flow"
+    },
+    { "name": "host", "value": "MacBookPro" },
+    { "name": "thread", "value": "pid-56713-worker-1" },
+    { "name": "suite", "value": "src/tests/mobile/mobile.spec.ts" },
+    { "name": "subSuite", "value": "Smoke: Login flow" }
+  ],
+  "links": [],
+  "start": 1745525398723,
+  "testCaseId": "9c077c354cd6c49695816cf0ff1d6375",
+  "fullName": "src/tests/mobile/mobile.spec.ts:18:7",
+  "stop": 1745525401121
+}

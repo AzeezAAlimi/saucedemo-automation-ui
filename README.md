@@ -61,28 +61,35 @@ src/
 ## ✅ Features
 
 - 🔐 **Login Flow**
+
   - `standard_user` can login
   - `locked_out_user` cannot login
 
 - 🛒 **Purchase Flow**
+
   - Sort by price & name
   - Add specific products to cart
   - Checkout with validation of cart contents
 
 - 📱 **Mobile Testing**
+
   - iPhone emulation with `devices['iPhone 12']`
   - Test UI responsiveness and layout shift
 
 - ♿️ **Accessibility**
+
   - Axe-core checks for labels, color contrast, and keyboard navigation
 
 - 🔄 **Data-Driven Testing**
+
   - Login and checkout flows tested with JSON data
 
 - 📊 **Performance Testing**
+
   - Artillery and k6 tests simulate load and track response times
 
 - 🤪 **Smoke Tests**
+
   - Critical path verification in `tests/smoke/`
 
 - 📸 **Visual Testing**
@@ -112,16 +119,16 @@ npx playwright test      # Run all tests
 
 ## 👨‍💻 Example Command Usage
 
-| Task            | Command                                       |
-|-----------------|-----------------------------------------------|
-| Run All Tests   | `npx playwright test`                         |
-| Run E2E Only    | `npx playwright test tests/e2e/`              |
-| Run Smoke Only  | `npx playwright test tests/smoke/`            |
-| Run Visual Only | `npx playwright test tests/visual/`           |
-| Run Mobile Only | `npx playwright test tests/mobile/`           |
-| Run in Headed   | `npx playwright test --headed`                |
-| Run with Debug  | `npx playwright test --debug`                 |
-| Show Report     | `npx playwright show-report`                  |
+| Task            | Command                             |
+| --------------- | ----------------------------------- |
+| Run All Tests   | `npx playwright test`               |
+| Run E2E Only    | `npx playwright test tests/e2e/`    |
+| Run Smoke Only  | `npx playwright test tests/smoke/`  |
+| Run Visual Only | `npx playwright test tests/visual/` |
+| Run Mobile Only | `npx playwright test tests/mobile/` |
+| Run in Headed   | `npx playwright test --headed`      |
+| Run with Debug  | `npx playwright test --debug`       |
+| Show Report     | `npx playwright show-report`        |
 
 ---
 

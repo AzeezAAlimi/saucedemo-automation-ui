@@ -1,1 +1,1599 @@
-{"uid":"91a429f85eeb67b3","name":"E2E: The standard user can log in and complete a product purchase successfully","fullName":"src/tests/e2e/e2e.spec.ts:4:5","historyId":"9e535e0799df1d045843fe4cfdcb6e36:d41d8cd98f00b204e9800998ecf8427e","time":{"start":1745525391948,"stop":1745525393193,"duration":1245},"status":"passed","flaky":false,"newFailed":false,"newBroken":false,"newPassed":false,"retriesCount":1,"retriesStatusChange":true,"beforeStages":[],"testStage":{"status":"passed","steps":[{"name":"Before Hooks","time":{"start":1745525391947,"stop":1745525392040,"duration":93},"status":"passed","steps":[{"name":"fixture: context","time":{"start":1745525391950,"stop":1745525391955,"duration":5},"status":"passed","steps":[{"name":"browser.newContext","time":{"start":1745525391950,"stop":1745525391953,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":1,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"fixture: page","time":{"start":1745525391955,"stop":1745525392035,"duration":80},"status":"passed","steps":[{"name":"browserContext.newPage","time":{"start":1745525391957,"stop":1745525392034,"duration":77},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":1,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"fixture: homePage","time":{"start":1745525392035,"stop":1745525392035,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: inventoryPage","time":{"start":1745525392036,"stop":1745525392036,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: cartPage","time":{"start":1745525392036,"stop":1745525392037,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: checkoutStepOnePage","time":{"start":1745525392037,"stop":1745525392038,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: checkoutSteptwoPage","time":{"start":1745525392038,"stop":1745525392039,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: checkoutCompletePage","time":{"start":1745525392039,"stop":1745525392039,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":10,"attachmentsCount":0,"hasContent":true,"attachmentStep":false},{"name":"page.goto(https://www.saucedemo.com/)","time":{"start":1745525392041,"stop":1745525392285,"duration":244},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525392286,"stop":1745525392313,"duration":27},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill(standard_user)","time":{"start":1745525392314,"stop":1745525392336,"duration":22},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill(secret_sauce)","time":{"start":1745525392337,"stop":1745525392426,"duration":89},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Login' }).click","time":{"start":1745525392429,"stop":1745525392519,"duration":90},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveURL","time":{"start":1745525392520,"stop":1745525392524,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525392525,"stop":1745525392530,"duration":5},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveCount","time":{"start":1745525392531,"stop":1745525392538,"duration":7},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.click([class=\"product_sort_container\"])","time":{"start":1745525392540,"stop":1745525392569,"duration":29},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.selectOption([class=\"product_sort_container\"])","time":{"start":1745525392571,"stop":1745525392586,"duration":15},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.click([class=\"inventory_item\"] >> nth=5 >> internal:role=button[name=\"Add to cart\"i])","time":{"start":1745525392587,"stop":1745525392633,"duration":46},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.click([class=\"product_sort_container\"])","time":{"start":1745525392635,"stop":1745525392666,"duration":31},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.selectOption([class=\"product_sort_container\"])","time":{"start":1745525392669,"stop":1745525392687,"duration":18},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.click([class=\"inventory_item\"] >> nth=1 >> internal:role=button[name=\"Add to cart\"i])","time":{"start":1745525392689,"stop":1745525392732,"duration":43},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.click([class=\"shopping_cart_container\"])","time":{"start":1745525392733,"stop":1745525392773,"duration":40},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"page.waitForURL","time":{"start":1745525392775,"stop":1745525392776,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveURL","time":{"start":1745525392778,"stop":1745525392783,"duration":5},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525392784,"stop":1745525392786,"duration":2},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525392787,"stop":1745525392790,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525392791,"stop":1745525392795,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Go back Continue Shopping' }).isVisible","time":{"start":1745525392796,"stop":1745525392799,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Checkout' }).isVisible","time":{"start":1745525392801,"stop":1745525392804,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.count([class=\"cart_item\"])","time":{"start":1745525392805,"stop":1745525392806,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_name\\\"]\")","time":{"start":1745525392807,"stop":1745525392822,"duration":15},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")","time":{"start":1745525392823,"stop":1745525392829,"duration":6},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Checkout' }).isVisible","time":{"start":1745525392831,"stop":1745525392833,"duration":2},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Checkout' }).click","time":{"start":1745525392834,"stop":1745525392853,"duration":19},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveURL","time":{"start":1745525392853,"stop":1745525392857,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveURL","time":{"start":1745525392859,"stop":1745525392865,"duration":6},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525392866,"stop":1745525392869,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525392870,"stop":1745525392873,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525392874,"stop":1745525392879,"duration":5},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525392879,"stop":1745525392883,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525392884,"stop":1745525392886,"duration":2},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525392886,"stop":1745525392889,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525392889,"stop":1745525392892,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill(Mark)","time":{"start":1745525392893,"stop":1745525392903,"duration":10},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525392904,"stop":1745525392908,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill(Jason)","time":{"start":1745525392910,"stop":1745525392920,"duration":10},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525392921,"stop":1745525392928,"duration":7},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.fill(12336)","time":{"start":1745525392929,"stop":1745525392939,"duration":10},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525392939,"stop":1745525392948,"duration":9},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Continue' }).isVisible","time":{"start":1745525392949,"stop":1745525392952,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Continue' }).click","time":{"start":1745525392954,"stop":1745525392988,"duration":34},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveURL","time":{"start":1745525392989,"stop":1745525392993,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveURL","time":{"start":1745525392995,"stop":1745525392998,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525392998,"stop":1745525393001,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525393002,"stop":1745525393006,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525393006,"stop":1745525393010,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525393011,"stop":1745525393015,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525393017,"stop":1745525393020,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525393021,"stop":1745525393024,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525393025,"stop":1745525393029,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525393030,"stop":1745525393033,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.allInnerTexts([class=\"inventory_item_name\"])","time":{"start":1745525393034,"stop":1745525393038,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toEqual","time":{"start":1745525393039,"stop":1745525393042,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.allInnerTexts([class=\"inventory_item_price\"])","time":{"start":1745525393051,"stop":1745525393054,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toEqual","time":{"start":1745525393054,"stop":1745525393055,"duration":1},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Finish' }).isVisible","time":{"start":1745525393056,"stop":1745525393059,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Finish' }).click","time":{"start":1745525393061,"stop":1745525393089,"duration":28},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveURL","time":{"start":1745525393089,"stop":1745525393095,"duration":6},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveURL","time":{"start":1745525393098,"stop":1745525393102,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525393104,"stop":1745525393109,"duration":5},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525393110,"stop":1745525393112,"duration":2},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525393113,"stop":1745525393117,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toContainText","time":{"start":1745525393117,"stop":1745525393120,"duration":3},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toBeVisible","time":{"start":1745525393121,"stop":1745525393125,"duration":4},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Back Home' }).isVisible","time":{"start":1745525393126,"stop":1745525393128,"duration":2},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"locator.getByRole('button', { name: 'Back Home' }).click","time":{"start":1745525393129,"stop":1745525393179,"duration":50},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"expect.toHaveURL","time":{"start":1745525393180,"stop":1745525393185,"duration":5},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"After Hooks","time":{"start":1745525393186,"stop":1745525393201,"duration":15},"status":"passed","steps":[{"name":"fixture: checkoutCompletePage","time":{"start":1745525393187,"stop":1745525393187,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: checkoutSteptwoPage","time":{"start":1745525393187,"stop":1745525393187,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: checkoutStepOnePage","time":{"start":1745525393187,"stop":1745525393187,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: cartPage","time":{"start":1745525393187,"stop":1745525393187,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: inventoryPage","time":{"start":1745525393188,"stop":1745525393188,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: homePage","time":{"start":1745525393188,"stop":1745525393188,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: page","time":{"start":1745525393188,"stop":1745525393188,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false},{"name":"fixture: context","time":{"start":1745525393188,"stop":1745525393188,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":0,"attachmentsCount":0,"hasContent":false,"attachmentStep":false}],"attachments":[],"parameters":[],"shouldDisplayMessage":false,"stepsCount":8,"attachmentsCount":0,"hasContent":true,"attachmentStep":false}],"attachments":[{"uid":"77e72c28ac59e47a","name":"stdout","source":"77e72c28ac59e47a.txt","type":"text/plain","size":254}],"parameters":[],"shouldDisplayMessage":false,"stepsCount":90,"attachmentsCount":1,"hasContent":true,"attachmentStep":false},"afterStages":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.e2e.e2e.spec.ts"},{"name":"titlePath","value":" >  > src/tests/e2e/e2e.spec.ts"},{"name":"host","value":"MacBookPro"},{"name":"thread","value":"pid-56713-worker-1"},{"name":"suite","value":"src/tests/e2e/e2e.spec.ts"},{"name":"resultFormat","value":"allure2"}],"parameters":[],"links":[],"hidden":false,"retry":false,"extra":{"severity":"normal","retries":[{"uid":"122ae7f7f8ae9333","status":"failed","statusDetails":"Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝","time":{"start":1745525151806,"stop":1745525151815,"duration":9}}],"categories":[],"tags":[]},"source":"91a429f85eeb67b3.json","parameterValues":[]}
+{
+  "uid": "91a429f85eeb67b3",
+  "name": "E2E: The standard user can log in and complete a product purchase successfully",
+  "fullName": "src/tests/e2e/e2e.spec.ts:4:5",
+  "historyId": "9e535e0799df1d045843fe4cfdcb6e36:d41d8cd98f00b204e9800998ecf8427e",
+  "time": { "start": 1745525391948, "stop": 1745525393193, "duration": 1245 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 1,
+  "retriesStatusChange": true,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "Before Hooks",
+        "time": {
+          "start": 1745525391947,
+          "stop": 1745525392040,
+          "duration": 93
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "fixture: context",
+            "time": {
+              "start": 1745525391950,
+              "stop": 1745525391955,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "browser.newContext",
+                "time": {
+                  "start": 1745525391950,
+                  "stop": 1745525391953,
+                  "duration": 3
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 1,
+            "attachmentsCount": 0,
+            "hasContent": true,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: page",
+            "time": {
+              "start": 1745525391955,
+              "stop": 1745525392035,
+              "duration": 80
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "browserContext.newPage",
+                "time": {
+                  "start": 1745525391957,
+                  "stop": 1745525392034,
+                  "duration": 77
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 1,
+            "attachmentsCount": 0,
+            "hasContent": true,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: homePage",
+            "time": {
+              "start": 1745525392035,
+              "stop": 1745525392035,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: inventoryPage",
+            "time": {
+              "start": 1745525392036,
+              "stop": 1745525392036,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: cartPage",
+            "time": {
+              "start": 1745525392036,
+              "stop": 1745525392037,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: checkoutStepOnePage",
+            "time": {
+              "start": 1745525392037,
+              "stop": 1745525392038,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: checkoutSteptwoPage",
+            "time": {
+              "start": 1745525392038,
+              "stop": 1745525392039,
+              "duration": 1
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: checkoutCompletePage",
+            "time": {
+              "start": 1745525392039,
+              "stop": 1745525392039,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 10,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      },
+      {
+        "name": "page.goto(https://www.saucedemo.com/)",
+        "time": {
+          "start": 1745525392041,
+          "stop": 1745525392285,
+          "duration": 244
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525392286,
+          "stop": 1745525392313,
+          "duration": 27
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.fill(standard_user)",
+        "time": {
+          "start": 1745525392314,
+          "stop": 1745525392336,
+          "duration": 22
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.fill(secret_sauce)",
+        "time": {
+          "start": 1745525392337,
+          "stop": 1745525392426,
+          "duration": 89
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Login' }).click",
+        "time": {
+          "start": 1745525392429,
+          "stop": 1745525392519,
+          "duration": 90
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveURL",
+        "time": {
+          "start": 1745525392520,
+          "stop": 1745525392524,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525392525,
+          "stop": 1745525392530,
+          "duration": 5
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveCount",
+        "time": {
+          "start": 1745525392531,
+          "stop": 1745525392538,
+          "duration": 7
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click([class=\"product_sort_container\"])",
+        "time": {
+          "start": 1745525392540,
+          "stop": 1745525392569,
+          "duration": 29
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.selectOption([class=\"product_sort_container\"])",
+        "time": {
+          "start": 1745525392571,
+          "stop": 1745525392586,
+          "duration": 15
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click([class=\"inventory_item\"] >> nth=5 >> internal:role=button[name=\"Add to cart\"i])",
+        "time": {
+          "start": 1745525392587,
+          "stop": 1745525392633,
+          "duration": 46
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click([class=\"product_sort_container\"])",
+        "time": {
+          "start": 1745525392635,
+          "stop": 1745525392666,
+          "duration": 31
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.selectOption([class=\"product_sort_container\"])",
+        "time": {
+          "start": 1745525392669,
+          "stop": 1745525392687,
+          "duration": 18
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click([class=\"inventory_item\"] >> nth=1 >> internal:role=button[name=\"Add to cart\"i])",
+        "time": {
+          "start": 1745525392689,
+          "stop": 1745525392732,
+          "duration": 43
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.click([class=\"shopping_cart_container\"])",
+        "time": {
+          "start": 1745525392733,
+          "stop": 1745525392773,
+          "duration": 40
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "page.waitForURL",
+        "time": {
+          "start": 1745525392775,
+          "stop": 1745525392776,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveURL",
+        "time": {
+          "start": 1745525392778,
+          "stop": 1745525392783,
+          "duration": 5
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525392784,
+          "stop": 1745525392786,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525392787,
+          "stop": 1745525392790,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525392791,
+          "stop": 1745525392795,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Go back Continue Shopping' }).isVisible",
+        "time": {
+          "start": 1745525392796,
+          "stop": 1745525392799,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Checkout' }).isVisible",
+        "time": {
+          "start": 1745525392801,
+          "stop": 1745525392804,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.count([class=\"cart_item\"])",
+        "time": {
+          "start": 1745525392805,
+          "stop": 1745525392806,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_name\\\"]\")",
+        "time": {
+          "start": 1745525392807,
+          "stop": 1745525392822,
+          "duration": 15
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")",
+        "time": {
+          "start": 1745525392823,
+          "stop": 1745525392829,
+          "duration": 6
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Checkout' }).isVisible",
+        "time": {
+          "start": 1745525392831,
+          "stop": 1745525392833,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Checkout' }).click",
+        "time": {
+          "start": 1745525392834,
+          "stop": 1745525392853,
+          "duration": 19
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveURL",
+        "time": {
+          "start": 1745525392853,
+          "stop": 1745525392857,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveURL",
+        "time": {
+          "start": 1745525392859,
+          "stop": 1745525392865,
+          "duration": 6
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525392866,
+          "stop": 1745525392869,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525392870,
+          "stop": 1745525392873,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525392874,
+          "stop": 1745525392879,
+          "duration": 5
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525392879,
+          "stop": 1745525392883,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525392884,
+          "stop": 1745525392886,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525392886,
+          "stop": 1745525392889,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525392889,
+          "stop": 1745525392892,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.fill(Mark)",
+        "time": {
+          "start": 1745525392893,
+          "stop": 1745525392903,
+          "duration": 10
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525392904,
+          "stop": 1745525392908,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.fill(Jason)",
+        "time": {
+          "start": 1745525392910,
+          "stop": 1745525392920,
+          "duration": 10
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525392921,
+          "stop": 1745525392928,
+          "duration": 7
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.fill(12336)",
+        "time": {
+          "start": 1745525392929,
+          "stop": 1745525392939,
+          "duration": 10
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525392939,
+          "stop": 1745525392948,
+          "duration": 9
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Continue' }).isVisible",
+        "time": {
+          "start": 1745525392949,
+          "stop": 1745525392952,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Continue' }).click",
+        "time": {
+          "start": 1745525392954,
+          "stop": 1745525392988,
+          "duration": 34
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveURL",
+        "time": {
+          "start": 1745525392989,
+          "stop": 1745525392993,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveURL",
+        "time": {
+          "start": 1745525392995,
+          "stop": 1745525392998,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525392998,
+          "stop": 1745525393001,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525393002,
+          "stop": 1745525393006,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525393006,
+          "stop": 1745525393010,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525393011,
+          "stop": 1745525393015,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525393017,
+          "stop": 1745525393020,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525393021,
+          "stop": 1745525393024,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525393025,
+          "stop": 1745525393029,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525393030,
+          "stop": 1745525393033,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.allInnerTexts([class=\"inventory_item_name\"])",
+        "time": {
+          "start": 1745525393034,
+          "stop": 1745525393038,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toEqual",
+        "time": {
+          "start": 1745525393039,
+          "stop": 1745525393042,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.allInnerTexts([class=\"inventory_item_price\"])",
+        "time": {
+          "start": 1745525393051,
+          "stop": 1745525393054,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toEqual",
+        "time": {
+          "start": 1745525393054,
+          "stop": 1745525393055,
+          "duration": 1
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Finish' }).isVisible",
+        "time": {
+          "start": 1745525393056,
+          "stop": 1745525393059,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Finish' }).click",
+        "time": {
+          "start": 1745525393061,
+          "stop": 1745525393089,
+          "duration": 28
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveURL",
+        "time": {
+          "start": 1745525393089,
+          "stop": 1745525393095,
+          "duration": 6
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveURL",
+        "time": {
+          "start": 1745525393098,
+          "stop": 1745525393102,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525393104,
+          "stop": 1745525393109,
+          "duration": 5
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525393110,
+          "stop": 1745525393112,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525393113,
+          "stop": 1745525393117,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toContainText",
+        "time": {
+          "start": 1745525393117,
+          "stop": 1745525393120,
+          "duration": 3
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toBeVisible",
+        "time": {
+          "start": 1745525393121,
+          "stop": 1745525393125,
+          "duration": 4
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Back Home' }).isVisible",
+        "time": {
+          "start": 1745525393126,
+          "stop": 1745525393128,
+          "duration": 2
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "locator.getByRole('button', { name: 'Back Home' }).click",
+        "time": {
+          "start": 1745525393129,
+          "stop": 1745525393179,
+          "duration": 50
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "expect.toHaveURL",
+        "time": {
+          "start": 1745525393180,
+          "stop": 1745525393185,
+          "duration": 5
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 0,
+        "attachmentsCount": 0,
+        "hasContent": false,
+        "attachmentStep": false
+      },
+      {
+        "name": "After Hooks",
+        "time": {
+          "start": 1745525393186,
+          "stop": 1745525393201,
+          "duration": 15
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "fixture: checkoutCompletePage",
+            "time": {
+              "start": 1745525393187,
+              "stop": 1745525393187,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: checkoutSteptwoPage",
+            "time": {
+              "start": 1745525393187,
+              "stop": 1745525393187,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: checkoutStepOnePage",
+            "time": {
+              "start": 1745525393187,
+              "stop": 1745525393187,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: cartPage",
+            "time": {
+              "start": 1745525393187,
+              "stop": 1745525393187,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: inventoryPage",
+            "time": {
+              "start": 1745525393188,
+              "stop": 1745525393188,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: homePage",
+            "time": {
+              "start": 1745525393188,
+              "stop": 1745525393188,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: page",
+            "time": {
+              "start": 1745525393188,
+              "stop": 1745525393188,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: context",
+            "time": {
+              "start": 1745525393188,
+              "stop": 1745525393188,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 8,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [
+      {
+        "uid": "77e72c28ac59e47a",
+        "name": "stdout",
+        "source": "77e72c28ac59e47a.txt",
+        "type": "text/plain",
+        "size": 254
+      }
+    ],
+    "parameters": [],
+    "shouldDisplayMessage": false,
+    "stepsCount": 90,
+    "attachmentsCount": 1,
+    "hasContent": true,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.e2e.e2e.spec.ts" },
+    { "name": "titlePath", "value": " >  > src/tests/e2e/e2e.spec.ts" },
+    { "name": "host", "value": "MacBookPro" },
+    { "name": "thread", "value": "pid-56713-worker-1" },
+    { "name": "suite", "value": "src/tests/e2e/e2e.spec.ts" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [
+      {
+        "uid": "122ae7f7f8ae9333",
+        "status": "failed",
+        "statusDetails": "Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/chromium_headless_shell-1169/chrome-mac/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝",
+        "time": { "start": 1745525151806, "stop": 1745525151815, "duration": 9 }
+      }
+    ],
+    "categories": [],
+    "tags": []
+  },
+  "source": "91a429f85eeb67b3.json",
+  "parameterValues": []
+}

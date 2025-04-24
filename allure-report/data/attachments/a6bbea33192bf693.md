@@ -1,6 +1,6 @@
 # Test info
 
-- Name: Add-to-Cart and Checkout Step One setup using product data >> Should fill checkout info for "Jurrien Timber  55555" successfully
+- Name: Add-to-Cart and Checkout Step One setup using product data >> Should fill checkout info for "Jurrien Timber 55555" successfully
 - Location: /Users/azeezalimi/Desktop/Automation/saucedemo/src/tests/data-driven-test/checkoutInfo.spec.ts:16:9
 
 # Error details

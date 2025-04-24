@@ -1,6 +1,6 @@
 # Test info
 
-- Name: Add-to-Cart and Checkout Step One setup using product data >> Should fill checkout info for "William Saliba  11111" successfully
+- Name: Add-to-Cart and Checkout Step One setup using product data >> Should fill checkout info for "William Saliba 11111" successfully
 - Location: /Users/azeezalimi/Desktop/Automation/saucedemo/src/tests/data-driven-test/checkoutInfo.spec.ts:16:9
 
 # Error details

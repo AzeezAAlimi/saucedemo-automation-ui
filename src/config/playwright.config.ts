@@ -1,4 +1,4 @@
- import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
@@ -10,6 +10,7 @@ export default defineConfig({
   reporter: [
     ['list'],
     ['html', { outputFolder: 'playwright-report', open: 'always' }],
+    ['allure-playwright'],
     ['json', { outputFile: 'report/test-results.json' }],
   ],
 

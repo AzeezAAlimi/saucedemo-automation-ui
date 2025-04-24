@@ -1,1 +1,247 @@
-[{"uid":"4694e7886dfad60c","name":"Should fill checkout info for \"Myles Lewis-Skelly 44444\" successfully","time":{"start":1745525388472,"stop":1745525389577,"duration":1105},"status":"passed","severity":"normal"},{"uid":"3ea3fcc2b575661f","name":"Should login successfully with username: \"performance_glitch_user\"","time":{"start":1745525388596,"stop":1745525394551,"duration":5955},"status":"passed","severity":"normal"},{"uid":"dd571bd151a93f1e","name":"Should fill checkout info for \"Thomas Partey 77777\" successfully","time":{"start":1745525389590,"stop":1745525390459,"duration":869},"status":"passed","severity":"normal"},{"uid":"bce6ea5e708ce456","name":"Should fill checkout info for \"Bukayo Saka 66666\" successfully","time":{"start":1745525391287,"stop":1745525392114,"duration":827},"status":"passed","severity":"normal"},{"uid":"5c1d4016e1c88bf7","name":"Smoke: Verifies that the \"All items\" option in the menu is functional","time":{"start":1745525394435,"stop":1745525396286,"duration":1851},"status":"passed","severity":"normal"},{"uid":"b94654af3b36c9b2","name":"Should login successfully with username: \"problem_user\"","time":{"start":1745525387673,"stop":1745525388583,"duration":910},"status":"passed","severity":"normal"},{"uid":"b8d906719e577f39","name":"Should add \"Test.allTheThings() T-Shirt (Red)\" to cart successfully","time":{"start":1745525389463,"stop":1745525390275,"duration":812},"status":"passed","severity":"normal"},{"uid":"40ccbb519b3657ee","name":"Should fill checkout info for \"Gabriel Martinelli 44444\" successfully","time":{"start":1745525390474,"stop":1745525391274,"duration":800},"status":"passed","severity":"normal"},{"uid":"a2a1af320559b174","name":"Axe - Analysis and reporting without tags","time":{"start":1745525389149,"stop":1745525390922,"duration":1773},"status":"failed","severity":"normal"},{"uid":"91a429f85eeb67b3","name":"E2E: The standard user can log in and complete a product purchase successfully","time":{"start":1745525391948,"stop":1745525393193,"duration":1245},"status":"passed","severity":"normal"},{"uid":"79bca2678adbd519","name":"Accessibility assertions - a11y matches","time":{"start":1745525393204,"stop":1745525394036,"duration":832},"status":"passed","severity":"normal"},{"uid":"1f270c935141c53a","name":"The standard_user should be able to log in","time":{"start":1745525398723,"stop":1745525401121,"duration":2398},"status":"passed","severity":"normal"},{"uid":"54aa5bc217417500","name":"Should fill checkout info for \"William Saliba 11111\" successfully","time":{"start":1745525387261,"stop":1745525388463,"duration":1202},"status":"passed","severity":"normal"},{"uid":"9790739bae325ac7","name":"Should add \"Sauce Labs Bike Light\" to cart successfully","time":{"start":1745525391171,"stop":1745525391933,"duration":762},"status":"passed","severity":"normal"},{"uid":"7ba8c42c2f386851","name":"Smoke: Standard user can log in and verify footer UI elements","time":{"start":1745525392953,"stop":1745525398142,"duration":5189},"status":"passed","severity":"normal"},{"uid":"7f2eace90d904661","name":"Visual: Homepage should match design snapshot","time":{"start":1745525396214,"stop":1745525397056,"duration":842},"status":"passed","severity":"normal"},{"uid":"5ba8f32712a66826","name":"The standard_user should be able to log in","time":{"start":1745525394237,"stop":1745525395023,"duration":786},"status":"passed","severity":"normal"},{"uid":"d14342332bbe7070","name":"Should login successfully with username: \"standard_user\"","time":{"start":1745525381906,"stop":1745525384654,"duration":2748},"status":"passed","severity":"normal"},{"uid":"7b03fe394ef7a687","name":"Smoke: Verifies that the \"Logout\" option in the menu is functional","time":{"start":1745525396292,"stop":1745525398062,"duration":1770},"status":"passed","severity":"normal"},{"uid":"8f23393b57ab9b09","name":"Should login successfully with username: \"error_user\"","time":{"start":1745525394570,"stop":1745525395375,"duration":805},"status":"passed","severity":"normal"},{"uid":"b705d250b5cd8cf8","name":"Should add \"Sauce Labs Bolt T-Shirt\" to cart successfully","time":{"start":1745525388344,"stop":1745525389458,"duration":1114},"status":"passed","severity":"normal"},{"uid":"f194556e2b19e8e9","name":"Should add \"Sauce Labs Fleece Jacket\" to cart successfully","time":{"start":1745525387240,"stop":1745525388349,"duration":1109},"status":"passed","severity":"normal"},{"uid":"158deb01d3c9b907","name":"Smoke: Standard user login and basic cart functionality","time":{"start":1745525392122,"stop":1745525392939,"duration":817},"status":"passed","severity":"normal"},{"uid":"769211adcf02db3d","name":"The locked_out_user should not be able to log in","time":{"start":1745525408894,"stop":1745525409603,"duration":709},"status":"passed","severity":"normal"},{"uid":"6028e6a22b3dfe14","name":"Smoke: Standard user login and verifies inventory page & the products visibility","time":{"start":1745525393220,"stop":1745525394231,"duration":1011},"status":"passed","severity":"normal"},{"uid":"66d4bf72c30083f4","name":"The locked_out_user should not be able to log in","time":{"start":1745525395032,"stop":1745525395733,"duration":701},"status":"passed","severity":"normal"},{"uid":"9faa16fdc1b8ff7c","name":"Accessibility keyboard navigation","time":{"start":1745525381963,"stop":1745525384825,"duration":2862},"status":"passed","severity":"normal"},{"uid":"f3a9d4387e187351","name":"Should fill checkout info for \"Jurrien Timber 55555\" successfully","time":{"start":1745525381892,"stop":1745525385011,"duration":3119},"status":"passed","severity":"normal"},{"uid":"81145009078d1e5e","name":"Should add \"Sauce Labs Backpack\" to cart successfully","time":{"start":1745525381904,"stop":1745525384983,"duration":3079},"status":"passed","severity":"normal"},{"uid":"d6dfb1165e7da3c3","name":"Should login successfully with username: \"visual_user\"","time":{"start":1745525395388,"stop":1745525396201,"duration":813},"status":"passed","severity":"normal"},{"uid":"7a4d977df8116917","name":"Visual: Checkout completion screen renders correctly","time":{"start":1745525395745,"stop":1745525397270,"duration":1525},"status":"passed","severity":"normal"},{"uid":"715eafdf71e60ec4","name":"Visual: Inventory page renders correctly after login and product sort","time":{"start":1745525397079,"stop":1745525398102,"duration":1023},"status":"passed","severity":"normal"},{"uid":"e5af71d6006d38fc","name":"Should add \"Sauce Labs Onesie\" to cart successfully","time":{"start":1745525390291,"stop":1745525391162,"duration":871},"status":"passed","severity":"normal"},{"uid":"42bad52eb7d5c1db","name":"Should login successfully with username: \"locked_out_user\"","time":{"start":1745525386871,"stop":1745525387670,"duration":799},"status":"passed","severity":"normal"},{"uid":"493d50779b36a174","name":"Axe - Analysis and reporting with tags","time":{"start":1745525386996,"stop":1745525389138,"duration":2142},"status":"passed","severity":"normal"}]
+[
+  {
+    "uid": "4694e7886dfad60c",
+    "name": "Should fill checkout info for \"Myles Lewis-Skelly 44444\" successfully",
+    "time": { "start": 1745525388472, "stop": 1745525389577, "duration": 1105 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "3ea3fcc2b575661f",
+    "name": "Should login successfully with username: \"performance_glitch_user\"",
+    "time": { "start": 1745525388596, "stop": 1745525394551, "duration": 5955 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "dd571bd151a93f1e",
+    "name": "Should fill checkout info for \"Thomas Partey 77777\" successfully",
+    "time": { "start": 1745525389590, "stop": 1745525390459, "duration": 869 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "bce6ea5e708ce456",
+    "name": "Should fill checkout info for \"Bukayo Saka 66666\" successfully",
+    "time": { "start": 1745525391287, "stop": 1745525392114, "duration": 827 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "5c1d4016e1c88bf7",
+    "name": "Smoke: Verifies that the \"All items\" option in the menu is functional",
+    "time": { "start": 1745525394435, "stop": 1745525396286, "duration": 1851 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b94654af3b36c9b2",
+    "name": "Should login successfully with username: \"problem_user\"",
+    "time": { "start": 1745525387673, "stop": 1745525388583, "duration": 910 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b8d906719e577f39",
+    "name": "Should add \"Test.allTheThings() T-Shirt (Red)\" to cart successfully",
+    "time": { "start": 1745525389463, "stop": 1745525390275, "duration": 812 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "40ccbb519b3657ee",
+    "name": "Should fill checkout info for \"Gabriel Martinelli 44444\" successfully",
+    "time": { "start": 1745525390474, "stop": 1745525391274, "duration": 800 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a2a1af320559b174",
+    "name": "Axe - Analysis and reporting without tags",
+    "time": { "start": 1745525389149, "stop": 1745525390922, "duration": 1773 },
+    "status": "failed",
+    "severity": "normal"
+  },
+  {
+    "uid": "91a429f85eeb67b3",
+    "name": "E2E: The standard user can log in and complete a product purchase successfully",
+    "time": { "start": 1745525391948, "stop": 1745525393193, "duration": 1245 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "79bca2678adbd519",
+    "name": "Accessibility assertions - a11y matches",
+    "time": { "start": 1745525393204, "stop": 1745525394036, "duration": 832 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "1f270c935141c53a",
+    "name": "The standard_user should be able to log in",
+    "time": { "start": 1745525398723, "stop": 1745525401121, "duration": 2398 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "54aa5bc217417500",
+    "name": "Should fill checkout info for \"William Saliba 11111\" successfully",
+    "time": { "start": 1745525387261, "stop": 1745525388463, "duration": 1202 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9790739bae325ac7",
+    "name": "Should add \"Sauce Labs Bike Light\" to cart successfully",
+    "time": { "start": 1745525391171, "stop": 1745525391933, "duration": 762 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7ba8c42c2f386851",
+    "name": "Smoke: Standard user can log in and verify footer UI elements",
+    "time": { "start": 1745525392953, "stop": 1745525398142, "duration": 5189 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7f2eace90d904661",
+    "name": "Visual: Homepage should match design snapshot",
+    "time": { "start": 1745525396214, "stop": 1745525397056, "duration": 842 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "5ba8f32712a66826",
+    "name": "The standard_user should be able to log in",
+    "time": { "start": 1745525394237, "stop": 1745525395023, "duration": 786 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d14342332bbe7070",
+    "name": "Should login successfully with username: \"standard_user\"",
+    "time": { "start": 1745525381906, "stop": 1745525384654, "duration": 2748 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7b03fe394ef7a687",
+    "name": "Smoke: Verifies that the \"Logout\" option in the menu is functional",
+    "time": { "start": 1745525396292, "stop": 1745525398062, "duration": 1770 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "8f23393b57ab9b09",
+    "name": "Should login successfully with username: \"error_user\"",
+    "time": { "start": 1745525394570, "stop": 1745525395375, "duration": 805 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b705d250b5cd8cf8",
+    "name": "Should add \"Sauce Labs Bolt T-Shirt\" to cart successfully",
+    "time": { "start": 1745525388344, "stop": 1745525389458, "duration": 1114 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f194556e2b19e8e9",
+    "name": "Should add \"Sauce Labs Fleece Jacket\" to cart successfully",
+    "time": { "start": 1745525387240, "stop": 1745525388349, "duration": 1109 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "158deb01d3c9b907",
+    "name": "Smoke: Standard user login and basic cart functionality",
+    "time": { "start": 1745525392122, "stop": 1745525392939, "duration": 817 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "769211adcf02db3d",
+    "name": "The locked_out_user should not be able to log in",
+    "time": { "start": 1745525408894, "stop": 1745525409603, "duration": 709 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "6028e6a22b3dfe14",
+    "name": "Smoke: Standard user login and verifies inventory page & the products visibility",
+    "time": { "start": 1745525393220, "stop": 1745525394231, "duration": 1011 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "66d4bf72c30083f4",
+    "name": "The locked_out_user should not be able to log in",
+    "time": { "start": 1745525395032, "stop": 1745525395733, "duration": 701 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "9faa16fdc1b8ff7c",
+    "name": "Accessibility keyboard navigation",
+    "time": { "start": 1745525381963, "stop": 1745525384825, "duration": 2862 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f3a9d4387e187351",
+    "name": "Should fill checkout info for \"Jurrien Timber 55555\" successfully",
+    "time": { "start": 1745525381892, "stop": 1745525385011, "duration": 3119 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "81145009078d1e5e",
+    "name": "Should add \"Sauce Labs Backpack\" to cart successfully",
+    "time": { "start": 1745525381904, "stop": 1745525384983, "duration": 3079 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "d6dfb1165e7da3c3",
+    "name": "Should login successfully with username: \"visual_user\"",
+    "time": { "start": 1745525395388, "stop": 1745525396201, "duration": 813 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "7a4d977df8116917",
+    "name": "Visual: Checkout completion screen renders correctly",
+    "time": { "start": 1745525395745, "stop": 1745525397270, "duration": 1525 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "715eafdf71e60ec4",
+    "name": "Visual: Inventory page renders correctly after login and product sort",
+    "time": { "start": 1745525397079, "stop": 1745525398102, "duration": 1023 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "e5af71d6006d38fc",
+    "name": "Should add \"Sauce Labs Onesie\" to cart successfully",
+    "time": { "start": 1745525390291, "stop": 1745525391162, "duration": 871 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "42bad52eb7d5c1db",
+    "name": "Should login successfully with username: \"locked_out_user\"",
+    "time": { "start": 1745525386871, "stop": 1745525387670, "duration": 799 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "493d50779b36a174",
+    "name": "Axe - Analysis and reporting with tags",
+    "time": { "start": 1745525386996, "stop": 1745525389138, "duration": 2142 },
+    "status": "passed",
+    "severity": "normal"
+  }
+]
