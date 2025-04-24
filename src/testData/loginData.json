@@ -1,26 +1,26 @@
 [
   {
-    "username": "standard_user",
+    "userName": "standard_user",
     "password": "secret_sauce"
   },
   {
-    "username": "locked_out_user",
+    "userName": "locked_out_user",
     "password": "secret_sauce"
   },
   {
-    "username": "problem_user",
+    "userName": "problem_user",
     "password": "secret_sauce"
   },
   {
-    "username": "performance_glitch_user",
+    "userName": "performance_glitch_user",
     "password": "secret_sauce"
   },
   {
-    "username": "error_user",
+    "userName": "error_user",
     "password": "secret_sauce"
   },
   {
-    "username": "visual_user",
+    "userName": "visual_user",
     "password": "secret_sauce"
   }
 ]

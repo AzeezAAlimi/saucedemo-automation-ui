@@ -27,7 +27,6 @@ export class HomePage {
     await this.userNameInput.fill(email);
     await this.passwordInput.fill(password);
     await this.loginBtn.click();
-    await this.page.waitForURL('https://www.saucedemo.com/inventory.html');
   }
 
   async lockedOutUserlogin(email: string, password: string) {
