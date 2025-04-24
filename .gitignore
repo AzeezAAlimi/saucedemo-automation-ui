@@ -5,3 +5,7 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+/playwright.config.ts/
+/tsconfig.json/
+/env.ts/
+/load-test.yml/
