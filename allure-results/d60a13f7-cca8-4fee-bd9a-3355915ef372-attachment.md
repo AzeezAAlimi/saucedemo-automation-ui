@@ -1,0 +1,54 @@
+# Test info
+
+- Name: Smoke: Login flow >> The standard_user should be able to log in
+- Location: /Users/azeezalimi/Desktop/Automation/saucedemo/src/tests/mobile/mobile.spec.ts:18:7
+
+# Error details
+
+```
+Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/webkit-2158/pw_run.sh
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+```
+
+# Test source
+
+```ts
+   1 | import { test } from '../../fixtures/fixtures';
+   2 | import { devices } from '@playwright/test';
+   3 | import { userData } from '../../testData/testData';
+   4 |
+   5 | const iphone15ProMax = devices['iPhone 15 Pro Max'];
+   6 |
+   7 | test.use({ ...iphone15ProMax });
+   8 |
+   9 | test.describe('Smoke: Login flow', () => {
+  10 |   test.beforeEach(async ({ homePage, page }) => {
+  11 |     await homePage.goTo();
+  12 |     await page.screenshot({
+  13 |       path: 'src/tests/mobile/screenshot/iphone15ProMax.png',
+  14 |       fullPage: true,
+  15 |     });
+  16 |   });
+  17 |
+> 18 |   test('The standard_user should be able to log in', async ({ homePage }) => {
+     |       ^ Error: browserType.launch: Executable doesn't exist at /Users/azeezalimi/Library/Caches/ms-playwright/webkit-2158/pw_run.sh
+  19 |     const { userName, password } = userData.standardUser;
+  20 |     await homePage.standardlogin(userName, password);
+  21 |   });
+  22 |
+  23 |   test('The locked_out_user should not be able to log in', async ({
+  24 |     homePage,
+  25 |   }) => {
+  26 |     const { userName, password } = userData.lockedUser;
+  27 |     await homePage.lockedOutUserlogin(userName, password);
+  28 |   });
+  29 | });
+  30 |
+```

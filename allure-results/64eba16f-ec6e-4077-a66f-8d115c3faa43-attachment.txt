@@ -1,0 +1,6 @@
+[ 'Sauce Labs Fleece Jacket', 'Sauce Labs Bike Light' ]
+[ '$49.99', '$9.99' ]
+Cart Name: Sauce Labs Fleece Jacket,Sauce Labs Bike Light
+Checkout Name: Sauce Labs Fleece Jacket,Sauce Labs Bike Light
+Cart Prices: $49.99,$9.99
+Checkout Prices: $49.99,$9.99

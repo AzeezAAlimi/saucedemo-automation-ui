@@ -12,9 +12,10 @@
     "prettier": "^3.5.3"
   },
   "devDependencies": {
-    "@playwright/test": "^1.51.1",
+    "@playwright/test": "^1.52.0",
     "@types/artillery": "^1.7.4",
     "@types/node": "^22.14.1",
+    "allure-playwright": "^3.2.1",
     "artillery": "^2.0.22",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"

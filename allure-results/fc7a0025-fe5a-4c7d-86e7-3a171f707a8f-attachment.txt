@@ -1,0 +1,3 @@
+Product Sauce Labs Backpack is added to the cart
+[ 'Sauce Labs Backpack' ]
+[ '$29.99' ]
