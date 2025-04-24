@@ -1,6 +1,6 @@
 import { test } from '../../fixtures/fixtures';
 import { devices } from '@playwright/test';
-import { userData } from '../../config/testData';
+import { userData } from '../../data/testData';
 
 const iphone15ProMax = devices['iPhone 15 Pro Max'];
 

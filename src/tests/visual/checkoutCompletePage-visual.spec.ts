@@ -1,5 +1,5 @@
 import { test } from '../../fixtures/fixtures';
-import { userData } from '../../config/testData';
+import { userData } from '../../data/testData';
 import { expect } from '@playwright/test';
 
 test('Visual: Checkout completion screen renders correctly', async ({

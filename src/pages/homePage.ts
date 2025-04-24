@@ -1,5 +1,5 @@
 import { expect, Locator, type Page } from '@playwright/test';
-import { BASE_URL } from '../config/env';
+import { BASE_URL } from '../utilities/env';
 
 export class HomePage {
   private readonly page: Page;

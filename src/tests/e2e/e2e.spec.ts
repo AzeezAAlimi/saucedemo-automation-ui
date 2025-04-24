@@ -1,5 +1,5 @@
 import { test } from '../../fixtures/fixtures';
-import { userData } from '../../config/testData';
+import { userData } from '../../data/testData';
 
 test('E2E: The standard user can log in and complete a product purchase successfully', async ({
   homePage,
