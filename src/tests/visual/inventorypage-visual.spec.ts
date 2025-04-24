@@ -1,5 +1,5 @@
 import { test } from '../../fixtures/fixtures';
-import { userData } from '../../data/testData';
+import { userData } from '../../testData/testData';
 import { expect } from '@playwright/test';
 
 test('Visual: Inventory page renders correctly after login and product sort', async ({

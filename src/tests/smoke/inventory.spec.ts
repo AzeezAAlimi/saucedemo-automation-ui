@@ -1,5 +1,5 @@
 import { test } from '../../fixtures/fixtures';
-import { userData, productsData } from '../../data/testData';
+import { userData, productsData } from '../../testData/testData';
 import { expect } from '@playwright/test';
 
 test('Smoke: Standard user login and verifies inventory page & the products visibility', async ({

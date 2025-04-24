@@ -1,5 +1,5 @@
 import { test } from '../../fixtures/fixtures';
-import { userData } from '../../data/testData';
+import { userData } from '../../testData/testData';
 
 test.describe('Smoke: Menu item tests', () => {
   test.beforeEach(async ({ homePage, inventoryPage }) => {

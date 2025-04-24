@@ -1,5 +1,5 @@
 import { test } from '../../fixtures/fixtures';
-import { userData, productsData } from '../../data/testData';
+import { userData, productsData } from '../../testData/testData';
 
 test('Smoke: Standard user login and basic cart functionality', async ({
   homePage,

@@ -1,5 +1,5 @@
 import { test } from '../../fixtures/fixtures';
-import { userData } from '../../data/testData';
+import { userData } from '../../testData/testData';
 
 test('Smoke: Standard user can log in and verify footer UI elements', async ({
   homePage,
