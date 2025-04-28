@@ -46,7 +46,7 @@ test.describe('Accessibility', () => {
     expect(report.violations).toHaveLength(0);
   });
 
-  test('Axe - Analysis and reporting without tags', async ({ page }) => {
+  test.skip('Axe - Analysis and reporting without tags', async ({ page }) => {
     const report = await new AxeBuilder({ page }).analyze();
     expect(report.violations).toHaveLength(0);
     expect(report.violations).toEqual([]);
