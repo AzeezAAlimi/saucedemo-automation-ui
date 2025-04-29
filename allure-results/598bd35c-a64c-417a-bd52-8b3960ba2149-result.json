@@ -1,1 +1,707 @@
-{"uuid":"598bd35c-a64c-417a-bd52-8b3960ba2149","name":"Smoke: Standard user login and verifies inventory page & the products visibility","historyId":"55f130290e14bc9f41877dc84c00307b:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browser.newContext","start":1745955769083,"stop":1745955769092}],"attachments":[],"parameters":[],"name":"fixture: context","start":1745955769081,"stop":1745955769093},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserContext.newPage","start":1745955769095,"stop":1745955769215}],"attachments":[],"parameters":[],"name":"fixture: page","start":1745955769094,"stop":1745955769216},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745955769216,"stop":1745955769216},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: inventoryPage","start":1745955769218,"stop":1745955769218},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: cartPage","start":1745955769218,"stop":1745955769219}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1745955769073,"stop":1745955769219},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955769221,"name":"page.goto(https://www.saucedemo.com/)","stop":1745955769562},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955769563,"name":"expect.toContainText","stop":1745955769665},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955769667,"name":"locator.fill(standard_user)","stop":1745955769701},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955769703,"name":"locator.fill(secret_sauce)","stop":1745955769840},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955769842,"name":"locator.getByRole('button', { name: 'Login' }).click","stop":1745955770072},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770073,"name":"expect.toHaveURL","stop":1745955770083},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770084,"name":"expect.toContainText","stop":1745955770094},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770095,"name":"expect.toHaveCount","stop":1745955770100},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770102,"name":"locator.count([class=\"inventory_item\"])","stop":1745955770104},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770108,"name":"locator.innerText([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")","stop":1745955770128},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770133,"name":"locator.innerText([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")","stop":1745955770141},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770144,"name":"locator.innerText([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")","stop":1745955770148},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770150,"name":"locator.innerText([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")","stop":1745955770158},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770161,"name":"locator.innerText([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")","stop":1745955770168},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770171,"name":"locator.innerText([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")","stop":1745955770174},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770176,"name":"locator.innerText([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")","stop":1745955770182},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770183,"name":"locator.innerText([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")","stop":1745955770189},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770190,"name":"locator.innerText([class=\"inventory_item\"] >> nth=2 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")","stop":1745955770194},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770196,"name":"locator.innerText([class=\"inventory_item\"] >> nth=2 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")","stop":1745955770200},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770203,"name":"locator.innerText([class=\"inventory_item\"] >> nth=2 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")","stop":1745955770207},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770209,"name":"locator.innerText([class=\"inventory_item\"] >> nth=2 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")","stop":1745955770214},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770215,"name":"locator.innerText([class=\"inventory_item\"] >> nth=3 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")","stop":1745955770218},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770221,"name":"locator.innerText([class=\"inventory_item\"] >> nth=3 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")","stop":1745955770225},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770227,"name":"locator.innerText([class=\"inventory_item\"] >> nth=3 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")","stop":1745955770231},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770234,"name":"locator.innerText([class=\"inventory_item\"] >> nth=3 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")","stop":1745955770252},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770253,"name":"locator.innerText([class=\"inventory_item\"] >> nth=4 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")","stop":1745955770266},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770267,"name":"locator.innerText([class=\"inventory_item\"] >> nth=4 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")","stop":1745955770270},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770272,"name":"locator.innerText([class=\"inventory_item\"] >> nth=4 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")","stop":1745955770277},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770282,"name":"locator.innerText([class=\"inventory_item\"] >> nth=4 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")","stop":1745955770287},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770289,"name":"locator.innerText([class=\"inventory_item\"] >> nth=5 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")","stop":1745955770292},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770293,"name":"locator.innerText([class=\"inventory_item\"] >> nth=5 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")","stop":1745955770297},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770299,"name":"locator.innerText([class=\"inventory_item\"] >> nth=5 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")","stop":1745955770304},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770305,"name":"locator.innerText([class=\"inventory_item\"] >> nth=5 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")","stop":1745955770308},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770311,"name":"locator.count([class=\"inventory_item\"])","stop":1745955770315},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770316,"name":"locator.textContent([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")","stop":1745955770320},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770323,"name":"locator.click([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")","stop":1745955770367},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770369,"name":"locator.count([class=\"inventory_item\"])","stop":1745955770377},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770380,"name":"locator.textContent([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")","stop":1745955770387},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770388,"name":"locator.textContent([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")","stop":1745955770407},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770408,"name":"locator.click([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")","stop":1745955770488},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770489,"name":"locator.click([class=\"shopping_cart_container\"])","stop":1745955770658},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770661,"name":"page.waitForURL","stop":1745955770661},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770662,"name":"locator.count([class=\"cart_item\"])","stop":1745955770665},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770666,"name":"locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_name\\\"]\")","stop":1745955770682},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770683,"name":"locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")","stop":1745955770689},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770690,"name":"expect.toContain","stop":1745955770691},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955770693,"name":"expect.toContain","stop":1745955770693},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: cartPage","start":1745955770693,"stop":1745955770694},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: inventoryPage","start":1745955770695,"stop":1745955770695},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745955770696,"stop":1745955770696},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: page","start":1745955770696,"stop":1745955770696},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: context","start":1745955770697,"stop":1745955770697}],"attachments":[],"parameters":[],"name":"After Hooks","start":1745955770693,"stop":1745955770710}],"attachments":[{"name":"stdout","source":"b5337425-a9f7-40b2-9af2-61c40d7b3cca-attachment.txt","type":"text/plain"}],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.smoke.inventory.spec.ts"},{"name":"titlePath","value":" >  > src/tests/smoke/inventory.spec.ts"},{"name":"host","value":"MacBookPro"},{"name":"thread","value":"pid-74785-worker-0"},{"name":"suite","value":"src/tests/smoke/inventory.spec.ts"}],"links":[],"start":1745955769069,"testCaseId":"55f130290e14bc9f41877dc84c00307b","fullName":"src/tests/smoke/inventory.spec.ts:5:5","stop":1745955770697}
+{
+  "uuid": "598bd35c-a64c-417a-bd52-8b3960ba2149",
+  "name": "Smoke: Standard user login and verifies inventory page & the products visibility",
+  "historyId": "55f130290e14bc9f41877dc84c00307b:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browser.newContext",
+              "start": 1745955769083,
+              "stop": 1745955769092
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1745955769081,
+          "stop": 1745955769093
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browserContext.newPage",
+              "start": 1745955769095,
+              "stop": 1745955769215
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1745955769094,
+          "stop": 1745955769216
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: homePage",
+          "start": 1745955769216,
+          "stop": 1745955769216
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: inventoryPage",
+          "start": 1745955769218,
+          "stop": 1745955769218
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: cartPage",
+          "start": 1745955769218,
+          "stop": 1745955769219
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1745955769073,
+      "stop": 1745955769219
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955769221,
+      "name": "page.goto(https://www.saucedemo.com/)",
+      "stop": 1745955769562
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955769563,
+      "name": "expect.toContainText",
+      "stop": 1745955769665
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955769667,
+      "name": "locator.fill(standard_user)",
+      "stop": 1745955769701
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955769703,
+      "name": "locator.fill(secret_sauce)",
+      "stop": 1745955769840
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955769842,
+      "name": "locator.getByRole('button', { name: 'Login' }).click",
+      "stop": 1745955770072
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770073,
+      "name": "expect.toHaveURL",
+      "stop": 1745955770083
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770084,
+      "name": "expect.toContainText",
+      "stop": 1745955770094
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770095,
+      "name": "expect.toHaveCount",
+      "stop": 1745955770100
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770102,
+      "name": "locator.count([class=\"inventory_item\"])",
+      "stop": 1745955770104
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770108,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")",
+      "stop": 1745955770128
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770133,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")",
+      "stop": 1745955770141
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770144,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")",
+      "stop": 1745955770148
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770150,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")",
+      "stop": 1745955770158
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770161,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")",
+      "stop": 1745955770168
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770171,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")",
+      "stop": 1745955770174
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770176,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")",
+      "stop": 1745955770182
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770183,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")",
+      "stop": 1745955770189
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770190,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=2 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")",
+      "stop": 1745955770194
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770196,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=2 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")",
+      "stop": 1745955770200
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770203,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=2 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")",
+      "stop": 1745955770207
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770209,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=2 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")",
+      "stop": 1745955770214
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770215,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=3 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")",
+      "stop": 1745955770218
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770221,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=3 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")",
+      "stop": 1745955770225
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770227,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=3 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")",
+      "stop": 1745955770231
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770234,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=3 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")",
+      "stop": 1745955770252
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770253,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=4 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")",
+      "stop": 1745955770266
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770267,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=4 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")",
+      "stop": 1745955770270
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770272,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=4 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")",
+      "stop": 1745955770277
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770282,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=4 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")",
+      "stop": 1745955770287
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770289,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=5 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")",
+      "stop": 1745955770292
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770293,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=5 >> internal:chain=\"[class=\\\"inventory_item_desc\\\"]\")",
+      "stop": 1745955770297
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770299,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=5 >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")",
+      "stop": 1745955770304
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770305,
+      "name": "locator.innerText([class=\"inventory_item\"] >> nth=5 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")",
+      "stop": 1745955770308
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770311,
+      "name": "locator.count([class=\"inventory_item\"])",
+      "stop": 1745955770315
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770316,
+      "name": "locator.textContent([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")",
+      "stop": 1745955770320
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770323,
+      "name": "locator.click([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")",
+      "stop": 1745955770367
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770369,
+      "name": "locator.count([class=\"inventory_item\"])",
+      "stop": 1745955770377
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770380,
+      "name": "locator.textContent([class=\"inventory_item\"] >> nth=0 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")",
+      "stop": 1745955770387
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770388,
+      "name": "locator.textContent([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"[class=\\\"inventory_item_name \\\"]\")",
+      "stop": 1745955770407
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770408,
+      "name": "locator.click([class=\"inventory_item\"] >> nth=1 >> internal:chain=\"internal:role=button[name=\\\"Add to cart\\\"i]\")",
+      "stop": 1745955770488
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770489,
+      "name": "locator.click([class=\"shopping_cart_container\"])",
+      "stop": 1745955770658
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770661,
+      "name": "page.waitForURL",
+      "stop": 1745955770661
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770662,
+      "name": "locator.count([class=\"cart_item\"])",
+      "stop": 1745955770665
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770666,
+      "name": "locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_name\\\"]\")",
+      "stop": 1745955770682
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770683,
+      "name": "locator.allInnerTexts([class=\"cart_item\"] >> internal:chain=\"[class=\\\"inventory_item_price\\\"]\")",
+      "stop": 1745955770689
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770690,
+      "name": "expect.toContain",
+      "stop": 1745955770691
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955770693,
+      "name": "expect.toContain",
+      "stop": 1745955770693
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: cartPage",
+          "start": 1745955770693,
+          "stop": 1745955770694
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: inventoryPage",
+          "start": 1745955770695,
+          "stop": 1745955770695
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: homePage",
+          "start": 1745955770696,
+          "stop": 1745955770696
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1745955770696,
+          "stop": 1745955770696
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1745955770697,
+          "stop": 1745955770697
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1745955770693,
+      "stop": 1745955770710
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "b5337425-a9f7-40b2-9af2-61c40d7b3cca-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.smoke.inventory.spec.ts" },
+    { "name": "titlePath", "value": " >  > src/tests/smoke/inventory.spec.ts" },
+    { "name": "host", "value": "MacBookPro" },
+    { "name": "thread", "value": "pid-74785-worker-0" },
+    { "name": "suite", "value": "src/tests/smoke/inventory.spec.ts" }
+  ],
+  "links": [],
+  "start": 1745955769069,
+  "testCaseId": "55f130290e14bc9f41877dc84c00307b",
+  "fullName": "src/tests/smoke/inventory.spec.ts:5:5",
+  "stop": 1745955770697
+}

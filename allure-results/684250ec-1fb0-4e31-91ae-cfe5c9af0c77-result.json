@@ -1,1 +1,310 @@
-{"uuid":"684250ec-1fb0-4e31-91ae-cfe5c9af0c77","name":"Smoke: Verifies that the \"Logout\" option in the menu is functional","historyId":"b548428eb83fdc9a4a57971f9fbcb7b8:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browser.newContext","start":1745955772741,"stop":1745955772744}],"attachments":[],"parameters":[],"name":"fixture: context","start":1745955772740,"stop":1745955772744},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserContext.newPage","start":1745955772747,"stop":1745955772844}],"attachments":[],"parameters":[],"name":"fixture: page","start":1745955772745,"stop":1745955772844},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745955772844,"stop":1745955772845},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: inventoryPage","start":1745955772846,"stop":1745955772846},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page.goto(https://www.saucedemo.com/)","start":1745955772848,"stop":1745955773278},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"expect.toContainText","start":1745955773279,"stop":1745955773368},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.fill(standard_user)","start":1745955773371,"stop":1745955773397},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.fill(secret_sauce)","start":1745955773398,"stop":1745955773528},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.getByRole('button', { name: 'Login' }).click","start":1745955773530,"stop":1745955773613},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"locator.getByRole('button', { name: 'Open Menu' }).click","start":1745955773616,"stop":1745955773727},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"expect.toContainText","start":1745955773729,"stop":1745955773735},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"expect.toContainText","start":1745955773736,"stop":1745955773741},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"expect.toContainText","start":1745955773742,"stop":1745955773749},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"expect.toContainText","start":1745955773750,"stop":1745955773756}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1745955772739,"stop":1745955773756}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1745955772738,"stop":1745955773756},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955773760,"name":"locator.getByRole('link', { name: 'Logout' }).click","stop":1745955774665},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955774666,"name":"expect.toHaveURL","stop":1745955774670},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: inventoryPage","start":1745955774672,"stop":1745955774672},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745955774672,"stop":1745955774672},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: page","start":1745955774673,"stop":1745955774673},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: context","start":1745955774673,"stop":1745955774673}],"attachments":[],"parameters":[],"name":"After Hooks","start":1745955774671,"stop":1745955774687}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.smoke.menu.spec.ts"},{"name":"titlePath","value":" >  > src/tests/smoke/menu.spec.ts > Smoke: Menu item tests"},{"name":"host","value":"MacBookPro"},{"name":"thread","value":"pid-74785-worker-0"},{"name":"suite","value":"src/tests/smoke/menu.spec.ts"},{"name":"subSuite","value":"Smoke: Menu item tests"}],"links":[],"start":1745955772740,"testCaseId":"b548428eb83fdc9a4a57971f9fbcb7b8","fullName":"src/tests/smoke/menu.spec.ts:18:7","stop":1745955774681}
+{
+  "uuid": "684250ec-1fb0-4e31-91ae-cfe5c9af0c77",
+  "name": "Smoke: Verifies that the \"Logout\" option in the menu is functional",
+  "historyId": "b548428eb83fdc9a4a57971f9fbcb7b8:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browser.newContext",
+                  "start": 1745955772741,
+                  "stop": 1745955772744
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: context",
+              "start": 1745955772740,
+              "stop": 1745955772744
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserContext.newPage",
+                  "start": 1745955772747,
+                  "stop": 1745955772844
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: page",
+              "start": 1745955772745,
+              "stop": 1745955772844
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: homePage",
+              "start": 1745955772844,
+              "stop": 1745955772845
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: inventoryPage",
+              "start": 1745955772846,
+              "stop": 1745955772846
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "page.goto(https://www.saucedemo.com/)",
+              "start": 1745955772848,
+              "stop": 1745955773278
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "expect.toContainText",
+              "start": 1745955773279,
+              "stop": 1745955773368
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.fill(standard_user)",
+              "start": 1745955773371,
+              "stop": 1745955773397
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.fill(secret_sauce)",
+              "start": 1745955773398,
+              "stop": 1745955773528
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.getByRole('button', { name: 'Login' }).click",
+              "start": 1745955773530,
+              "stop": 1745955773613
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "locator.getByRole('button', { name: 'Open Menu' }).click",
+              "start": 1745955773616,
+              "stop": 1745955773727
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "expect.toContainText",
+              "start": 1745955773729,
+              "stop": 1745955773735
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "expect.toContainText",
+              "start": 1745955773736,
+              "stop": 1745955773741
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "expect.toContainText",
+              "start": 1745955773742,
+              "stop": 1745955773749
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "expect.toContainText",
+              "start": 1745955773750,
+              "stop": 1745955773756
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1745955772739,
+          "stop": 1745955773756
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1745955772738,
+      "stop": 1745955773756
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955773760,
+      "name": "locator.getByRole('link', { name: 'Logout' }).click",
+      "stop": 1745955774665
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955774666,
+      "name": "expect.toHaveURL",
+      "stop": 1745955774670
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: inventoryPage",
+          "start": 1745955774672,
+          "stop": 1745955774672
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: homePage",
+          "start": 1745955774672,
+          "stop": 1745955774672
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1745955774673,
+          "stop": 1745955774673
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1745955774673,
+          "stop": 1745955774673
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1745955774671,
+      "stop": 1745955774687
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "src.tests.smoke.menu.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/smoke/menu.spec.ts > Smoke: Menu item tests"
+    },
+    { "name": "host", "value": "MacBookPro" },
+    { "name": "thread", "value": "pid-74785-worker-0" },
+    { "name": "suite", "value": "src/tests/smoke/menu.spec.ts" },
+    { "name": "subSuite", "value": "Smoke: Menu item tests" }
+  ],
+  "links": [],
+  "start": 1745955772740,
+  "testCaseId": "b548428eb83fdc9a4a57971f9fbcb7b8",
+  "fullName": "src/tests/smoke/menu.spec.ts:18:7",
+  "stop": 1745955774681
+}

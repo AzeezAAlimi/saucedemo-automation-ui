@@ -1,1 +1,537 @@
-{"uuid":"252d5f48-0164-4cd4-bc23-f39be33391cb","name":"Accessibility keyboard navigation","historyId":"766f102b911b9bf317ef8ec95ea43952:d41d8cd98f00b204e9800998ecf8427e","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserType.launch","start":1745955758342,"stop":1745955758979}],"attachments":[],"parameters":[],"name":"fixture: browser","start":1745955758338,"stop":1745955758980},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browser.newContext","start":1745955758997,"stop":1745955759013}],"attachments":[],"parameters":[],"name":"fixture: context","start":1745955758987,"stop":1745955759018},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"browserContext.newPage","start":1745955759021,"stop":1745955759481}],"attachments":[],"parameters":[],"name":"fixture: page","start":1745955759019,"stop":1745955759482},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745955759484,"stop":1745955759486},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"page.goto(https://www.saucedemo.com/)","start":1745955759499,"stop":1745955759995},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"expect.toContainText","start":1745955760000,"stop":1745955760224}],"attachments":[],"parameters":[],"name":"beforeEach hook","start":1745955758324,"stop":1745955760224}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1745955758322,"stop":1745955760225},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760230,"name":"locator.getByRole('textbox', { name: 'username' }).click","stop":1745955760340},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760342,"name":"keyboard.type(s)","stop":1745955760352},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760353,"name":"keyboard.type(t)","stop":1745955760527},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760529,"name":"keyboard.type(a)","stop":1745955760537},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760545,"name":"keyboard.type(n)","stop":1745955760550},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760551,"name":"keyboard.type(d)","stop":1745955760558},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760559,"name":"keyboard.type(a)","stop":1745955760564},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760570,"name":"keyboard.type(r)","stop":1745955760575},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760576,"name":"keyboard.type(d)","stop":1745955760581},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760582,"name":"keyboard.type(_)","stop":1745955760586},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760592,"name":"keyboard.type(u)","stop":1745955760597},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760609,"name":"keyboard.type(s)","stop":1745955760668},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760679,"name":"keyboard.type(e)","stop":1745955760709},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760714,"name":"keyboard.type(r)","stop":1745955760725},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760730,"name":"locator.getByRole('textbox', { name: 'password' }).click","stop":1745955760775},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760777,"name":"keyboard.type(s)","stop":1745955760781},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760783,"name":"keyboard.type(e)","stop":1745955760789},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760791,"name":"keyboard.type(c)","stop":1745955760796},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760797,"name":"keyboard.type(r)","stop":1745955760801},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760802,"name":"keyboard.type(e)","stop":1745955760806},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760808,"name":"keyboard.type(t)","stop":1745955760813},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760817,"name":"keyboard.type(_)","stop":1745955760854},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760856,"name":"keyboard.type(s)","stop":1745955760861},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760862,"name":"keyboard.type(a)","stop":1745955760866},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760868,"name":"keyboard.type(u)","stop":1745955760942},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760943,"name":"keyboard.type(c)","stop":1745955760959},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955760961,"name":"keyboard.type(e)","stop":1745955760981},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955761000,"name":"keyboard.press(Tab)","stop":1745955761007},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955761008,"name":"keyboard.press(Enter)","stop":1745955761049},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1745955761054,"name":"page.pause","stop":1745955761065},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: homePage","start":1745955761099,"stop":1745955761099},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: page","start":1745955761099,"stop":1745955761100},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"fixture: context","start":1745955761106,"stop":1745955761107}],"attachments":[],"parameters":[],"name":"After Hooks","start":1745955761094,"stop":1745955761370}],"attachments":[],"parameters":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"src.tests.accessibility.axe.homepage-accessibility.spec.ts"},{"name":"titlePath","value":" >  > src/tests/accessibility/axe/homepage-accessibility.spec.ts > Accessibility"},{"name":"host","value":"MacBookPro"},{"name":"thread","value":"pid-74785-worker-0"},{"name":"suite","value":"src/tests/accessibility/axe/homepage-accessibility.spec.ts"},{"name":"subSuite","value":"Accessibility"}],"links":[],"start":1745955758293,"testCaseId":"766f102b911b9bf317ef8ec95ea43952","fullName":"src/tests/accessibility/axe/homepage-accessibility.spec.ts:9:7","stop":1745955760666}
+{
+  "uuid": "252d5f48-0164-4cd4-bc23-f39be33391cb",
+  "name": "Accessibility keyboard navigation",
+  "historyId": "766f102b911b9bf317ef8ec95ea43952:d41d8cd98f00b204e9800998ecf8427e",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserType.launch",
+                  "start": 1745955758342,
+                  "stop": 1745955758979
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: browser",
+              "start": 1745955758338,
+              "stop": 1745955758980
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browser.newContext",
+                  "start": 1745955758997,
+                  "stop": 1745955759013
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: context",
+              "start": 1745955758987,
+              "stop": 1745955759018
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "browserContext.newPage",
+                  "start": 1745955759021,
+                  "stop": 1745955759481
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: page",
+              "start": 1745955759019,
+              "stop": 1745955759482
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "fixture: homePage",
+              "start": 1745955759484,
+              "stop": 1745955759486
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "page.goto(https://www.saucedemo.com/)",
+              "start": 1745955759499,
+              "stop": 1745955759995
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "expect.toContainText",
+              "start": 1745955760000,
+              "stop": 1745955760224
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1745955758324,
+          "stop": 1745955760224
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1745955758322,
+      "stop": 1745955760225
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760230,
+      "name": "locator.getByRole('textbox', { name: 'username' }).click",
+      "stop": 1745955760340
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760342,
+      "name": "keyboard.type(s)",
+      "stop": 1745955760352
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760353,
+      "name": "keyboard.type(t)",
+      "stop": 1745955760527
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760529,
+      "name": "keyboard.type(a)",
+      "stop": 1745955760537
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760545,
+      "name": "keyboard.type(n)",
+      "stop": 1745955760550
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760551,
+      "name": "keyboard.type(d)",
+      "stop": 1745955760558
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760559,
+      "name": "keyboard.type(a)",
+      "stop": 1745955760564
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760570,
+      "name": "keyboard.type(r)",
+      "stop": 1745955760575
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760576,
+      "name": "keyboard.type(d)",
+      "stop": 1745955760581
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760582,
+      "name": "keyboard.type(_)",
+      "stop": 1745955760586
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760592,
+      "name": "keyboard.type(u)",
+      "stop": 1745955760597
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760609,
+      "name": "keyboard.type(s)",
+      "stop": 1745955760668
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760679,
+      "name": "keyboard.type(e)",
+      "stop": 1745955760709
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760714,
+      "name": "keyboard.type(r)",
+      "stop": 1745955760725
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760730,
+      "name": "locator.getByRole('textbox', { name: 'password' }).click",
+      "stop": 1745955760775
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760777,
+      "name": "keyboard.type(s)",
+      "stop": 1745955760781
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760783,
+      "name": "keyboard.type(e)",
+      "stop": 1745955760789
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760791,
+      "name": "keyboard.type(c)",
+      "stop": 1745955760796
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760797,
+      "name": "keyboard.type(r)",
+      "stop": 1745955760801
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760802,
+      "name": "keyboard.type(e)",
+      "stop": 1745955760806
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760808,
+      "name": "keyboard.type(t)",
+      "stop": 1745955760813
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760817,
+      "name": "keyboard.type(_)",
+      "stop": 1745955760854
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760856,
+      "name": "keyboard.type(s)",
+      "stop": 1745955760861
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760862,
+      "name": "keyboard.type(a)",
+      "stop": 1745955760866
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760868,
+      "name": "keyboard.type(u)",
+      "stop": 1745955760942
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760943,
+      "name": "keyboard.type(c)",
+      "stop": 1745955760959
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955760961,
+      "name": "keyboard.type(e)",
+      "stop": 1745955760981
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955761000,
+      "name": "keyboard.press(Tab)",
+      "stop": 1745955761007
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955761008,
+      "name": "keyboard.press(Enter)",
+      "stop": 1745955761049
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1745955761054,
+      "name": "page.pause",
+      "stop": 1745955761065
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: homePage",
+          "start": 1745955761099,
+          "stop": 1745955761099
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1745955761099,
+          "stop": 1745955761100
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1745955761106,
+          "stop": 1745955761107
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1745955761094,
+      "stop": 1745955761370
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "src.tests.accessibility.axe.homepage-accessibility.spec.ts"
+    },
+    {
+      "name": "titlePath",
+      "value": " >  > src/tests/accessibility/axe/homepage-accessibility.spec.ts > Accessibility"
+    },
+    { "name": "host", "value": "MacBookPro" },
+    { "name": "thread", "value": "pid-74785-worker-0" },
+    {
+      "name": "suite",
+      "value": "src/tests/accessibility/axe/homepage-accessibility.spec.ts"
+    },
+    { "name": "subSuite", "value": "Accessibility" }
+  ],
+  "links": [],
+  "start": 1745955758293,
+  "testCaseId": "766f102b911b9bf317ef8ec95ea43952",
+  "fullName": "src/tests/accessibility/axe/homepage-accessibility.spec.ts:9:7",
+  "stop": 1745955760666
+}
