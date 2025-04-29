@@ -1,0 +1,3 @@
+Product Test.allTheThings() T-Shirt (Red) is added to the cart
+[ 'Test.allTheThings() T-Shirt (Red)' ]
+[ '$15.99' ]

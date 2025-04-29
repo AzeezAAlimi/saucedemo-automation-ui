@@ -1,0 +1,3 @@
+Product Sauce Labs Onesie is added to the cart
+[ 'Sauce Labs Onesie' ]
+[ '$7.99' ]
