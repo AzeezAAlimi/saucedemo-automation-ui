@@ -9,3 +9,4 @@ node_modules/
 /tsconfig.json/
 /env.ts/
 /load-test.yml/
+/cheatsheet.txt/
