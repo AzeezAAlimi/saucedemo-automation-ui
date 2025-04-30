@@ -2,7 +2,7 @@ import { test } from '../../fixtures/fixtures';
 import { userData } from '../../testData/testData';
 import { expect } from '@playwright/test';
 
-test.skip('Visual: Checkout completion screen renders correctly', async ({
+test('Visual: Checkout completion screen renders correctly', async ({
   homePage,
   inventoryPage,
   cartPage,

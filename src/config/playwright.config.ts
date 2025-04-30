@@ -15,6 +15,7 @@ export default defineConfig({
   ],
 
   use: {
+    headless: true,
     trace: 'on-first-retry',
     testIdAttribute: 'data-test',
     screenshot: 'only-on-failure',

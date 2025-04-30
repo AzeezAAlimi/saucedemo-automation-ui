@@ -1,7 +1,7 @@
 import { test } from '../../fixtures/fixtures';
 import { expect } from '@playwright/test';
 
-test.skip('Visual: Homepage should match design snapshot', async ({
+test('Visual: Homepage should match design snapshot', async ({
   homePage,
   page,
 }) => {
