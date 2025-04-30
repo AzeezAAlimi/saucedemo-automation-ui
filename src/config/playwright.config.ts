@@ -9,7 +9,7 @@ export default defineConfig({
 
   reporter: [
     ['list'],
-    ['html'],
+    ['html', { outputFolder: 'playwright-report', open: 'never' }],
     ['github'],
     ['allure-playwright'],
     ['json', { outputFile: 'report/test-results.json' }],
