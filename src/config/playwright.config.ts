@@ -1,4 +1,4 @@
-import { defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices, expect } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
@@ -19,6 +19,13 @@ export default defineConfig({
     testIdAttribute: 'data-test',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
+  },
+
+  expect: {
+    toHaveScreenshot: {
+      threshold: 0.2,
+      maxDiffPixelRatio: 0.1,
+    },
   },
 
   projects: [
