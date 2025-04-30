@@ -2,10 +2,8 @@
 # Playwright
 node_modules/
 /test-results/
-/playwright-report/
 /blob-report/
 /playwright/.cache/
-/playwright.config.ts/
 /tsconfig.json/
 /env.ts/
 /load-test.yml/
